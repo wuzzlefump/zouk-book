@@ -1,25 +1,57 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import * as React from "react";
+import logo from "./logo.svg";
+import styles from "App.module.css";
+import {
+  BrowserRouter,
+  Route,
+  Redirect,
+  Switch,
+  RouteProps,
+} from "react-router-dom";
+import Layout from "./components/Layout/Layout";
 
+// Screens import
+const Home = React.lazy(() => import("./screens/Home/Home"));
+// Screens Import
+// Route Setup
+type IRouteConfig = {
+  path: string;
+  title: string;
+  comp: any;
+  Layout: (props: any) => JSX.Element;
+  layoutProps?: any;
+  Route?: any;
+};
+const routes: Array<IRouteConfig> = [
+  {
+    path: "/",
+    title: "Home",
+    comp: <Home />,
+    Layout: Layout,
+    Route: Route,
+  },
+];
+
+//RouteSetup
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <BrowserRouter>
+      <Switch>
+        {routes.map((x, i) => {
+          const RouteComp = x.Route;
+          return (
+            <RouteComp key={i} exact path={x.path}>
+              {/* //documentTitle */}
+              <x.Layout {...x.layoutProps}>
+                {/* //loading */}
+                {x.comp}
+                {/* //loading */}
+              </x.Layout>
+            </RouteComp>
+          );
+        })}
+      </Switch>
+    </BrowserRouter>
   );
 }
 
