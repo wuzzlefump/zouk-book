@@ -1,6 +1,6 @@
 .container {
   background-color: var(--color-secondary-d);
-  padding-block-start: 20px;
+
   display: grid;
   gap: var(--sp4);
   grid-template-columns: 120px auto;
@@ -8,6 +8,7 @@
 .header {
   text-align: center;
   background-color: var(--color-secondary);
+  margin-block-start: 20px;
   border-radius: 10px;
   padding-block-start: 10px;
   padding-block-end: 10px;
@@ -16,6 +17,7 @@
   margin-inline-end: var(--sp8);
 }
 .menu {
+  padding-block-start: 20px;
   border-inline-end-color: black;
   border-inline-end-width: 1px;
   border-inline-end-style: solid;
