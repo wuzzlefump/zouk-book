@@ -1,11 +1,25 @@
+.container {
+  background-color: var(--color-secondary-d);
+  padding-block-start: 20px;
+}
 .header {
   text-align: center;
-  background-color: var(--color-tertiary);
+  background-color: var(--color-secondary);
   border-radius: 10px;
   padding-block-start: 10px;
   padding-block-end: 10px;
-  margin-block-start: 10px;
-  margin-block-end: 10px;
+  margin-block-end: 20px;
   margin-inline-start: var(--sp8);
   margin-inline-end: var(--sp8);
+}
+.menu {
+  border-inline-end-color: black;
+  border-inline-end-width: 1px;
+  border-inline-end-style: solid;
+  height: 800px;
+}
+.content {
+  display: grid;
+  gap: var(--sp4);
+  grid-template-columns: 120px auto;
 }

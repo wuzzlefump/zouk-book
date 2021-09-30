@@ -38,7 +38,7 @@
 .linkActive:focus {
   color: var(--color-neutral-900);
   font-weight: 700;
-  border-color: var(--color-primary-l);
+  border-color: var(--color-tertiary);
 }
 
 .linkDisabled {
