@@ -1,9 +1,13 @@
 .container {
-  background-color: var(--color-secondary-d);
-  padding-block-start: 20px;
+  background-color: antiquewhite;
+
+  display: grid;
+  gap: var(--sp4);
+  grid-template-columns: 120px auto;
 }
 .header {
   text-align: center;
+  margin-block-start: 20px;
   background-color: var(--color-secondary);
   border-radius: 10px;
   padding-block-start: 10px;
@@ -16,10 +20,6 @@
   border-inline-end-color: black;
   border-inline-end-width: 1px;
   border-inline-end-style: solid;
-  height: 800px;
-}
-.content {
-  display: grid;
-  gap: var(--sp4);
-  grid-template-columns: 120px auto;
+  background-color: var(--color-secondary-d);
+  height: 900px;
 }

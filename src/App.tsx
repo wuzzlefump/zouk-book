@@ -10,6 +10,7 @@ import {
   RouteProps,
 } from "react-router-dom";
 import Layout from "./components/Layout/Layout";
+import HomeLayout from "./components/HomeLayout/HomeLayout";
 
 // Screens import
 const Home = React.lazy(() => import("./screens/Home/Home"));
@@ -33,7 +34,7 @@ const routes: Array<IRouteConfig> = [
     path: "/",
     title: "Home",
     comp: <Home />,
-    Layout: Layout,
+    Layout: HomeLayout,
     Route: Route,
   },
   {
