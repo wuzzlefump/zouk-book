@@ -1,0 +1,65 @@
+.navListContainer {
+  border-block-end: 2px solid var(--color-neutral-300);
+}
+
+.navList {
+  display: grid;
+  grid-auto-flow: column;
+  justify-content: space-between;
+  overflow-x: auto;
+  position: relative;
+  top: 1px;
+  padding-block-end: var(--sp3);
+  margin-block-end: calc(-1 * var(--sp3));
+}
+
+.link {
+  display: block;
+  line-height: 1;
+  color: var(--color-neutral-400);
+  background: none;
+  border: none;
+  border-bottom: 3px solid transparent;
+  font-size: var(--fs1);
+  padding: var(--sp3) var(--sp5);
+  text-decoration: none;
+  cursor: pointer;
+  outline: none;
+  white-space: nowrap;
+  font-weight: 500;
+}
+
+.linkDisabled {
+  opacity: 0.5;
+  pointer-events: none;
+  cursor: not-allowed;
+}
+
+.navTabLayout {
+  display: grid;
+  grid-auto-flow: column;
+  justify-content: center;
+  align-items: center;
+  gap: var(--sp2);
+}
+
+.link svg {
+  color: var(--color-neutral-300);
+}
+
+@media (hover: hover) {
+  .link:hover,
+  .link:active,
+  .link:focus {
+    color: var(--color-neutral-700);
+    border-color: var(--color-neutral-200);
+  }
+
+  .linkActive,
+  .linkActive:hover,
+  .linkActive:active,
+  .linkActive:focus {
+    color: var(--color-primary);
+    border-color: var(--color-secondary);
+  }
+}

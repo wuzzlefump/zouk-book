@@ -1,0 +1,11 @@
+.header {
+  text-align: center;
+  background-color: var(--color-tertiary);
+  border-radius: 10px;
+  padding-block-start: 10px;
+  padding-block-end: 10px;
+  margin-block-start: 10px;
+  margin-block-end: 10px;
+  margin-inline-start: var(--sp8);
+  margin-inline-end: var(--sp8);
+}

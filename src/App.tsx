@@ -1,6 +1,7 @@
 import * as React from "react";
 import logo from "./logo.svg";
 import styles from "App.module.css";
+import "../src/themes/default/shared.css";
 import {
   BrowserRouter,
   Route,
@@ -43,9 +44,7 @@ function App() {
             <RouteComp key={i} exact path={x.path}>
               {/* //documentTitle */}
               <x.Layout {...x.layoutProps}>
-                {/* //loading */}
-                {x.comp}
-                {/* //loading */}
+                <React.Suspense fallback={"Loading"}>{x.comp}</React.Suspense>
               </x.Layout>
             </RouteComp>
           );
