@@ -4,7 +4,12 @@ import { Nav, NavItem } from "../Nav/Nav";
 
 export default function Layout(props: { children: React.ReactNode }) {
   const { children } = props;
-  const NavList: Array<any> = [{ to: "/", label: "Home" }];
+  const NavList: Array<any> = [
+    { to: "/", label: "History" },
+    { to: "/", label: "Techniques" },
+    { to: "/", label: "Moves" },
+    { to: "/", label: "Glossary" },
+  ];
   return (
     <div className={styles.container}>
       <div className={styles.header}>
