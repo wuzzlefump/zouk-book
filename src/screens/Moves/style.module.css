@@ -2,4 +2,5 @@
   display: grid;
   text-align: center;
   margin-block-end: var(--sp4);
+  gap: var(--sp4);
 }

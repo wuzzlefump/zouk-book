@@ -17,6 +17,11 @@ const Home = React.lazy(() => import("./screens/Home/Home"));
 const Glossary = React.lazy(() => import("./screens/Glossary/Glossary"));
 const Resources = React.lazy(() => import("./screens/Resources/Resources"));
 const Moves = React.lazy(() => import("./screens/Moves/Moves"));
+const SFMoves = React.lazy(() => import("./screens/Moves/Moves"));
+const BronzeMoves = React.lazy(() => import("./screens/Moves/Moves"));
+const SilverMoves = React.lazy(() => import("./screens/Moves/Moves"));
+const GoldMoves = React.lazy(() => import("./screens/Moves/Moves"));
+
 const Techniques = React.lazy(() => import("./screens/Techniques/Techniques"));
 const History = React.lazy(() => import("./screens/History/History"));
 // Screens Import
@@ -48,6 +53,41 @@ const routes: Array<IRouteConfig> = [
     path: "/techniques",
     title: "Techniques",
     comp: <Techniques />,
+    Layout: Layout,
+    Route: Route,
+  },
+  {
+    path: "/moves/sf/:name?",
+    title: "Moves",
+    comp: <Moves />,
+    Layout: Layout,
+    Route: Route,
+  },
+  {
+    path: "/moves/bronze/:name?",
+    title: "Moves",
+    comp: <Moves />,
+    Layout: Layout,
+    Route: Route,
+  },
+  {
+    path: "/moves/silver/:name?",
+    title: "Moves",
+    comp: <Moves />,
+    Layout: Layout,
+    Route: Route,
+  },
+  {
+    path: "/moves/gold/:name?",
+    title: "Moves",
+    comp: <Moves />,
+    Layout: Layout,
+    Route: Route,
+  },
+  {
+    path: "/moves/:name?",
+    title: "Moves",
+    comp: <Moves />,
     Layout: Layout,
     Route: Route,
   },

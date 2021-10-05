@@ -1,16 +1,14 @@
 import * as React from "react";
 import styles from "./style.module.css";
 import { AgGrid } from "../../components/AgGrid/AgGrid";
-import MovesList from "./List.json";
 import { useParams, useHistory } from "react-router";
+import MovesList from "./SFList.json";
 
-export default function Moves() {
-  const history = useHistory();
+export default function SFMoves() {
+  const [currentMoveName, setCurrentMoveName] = React.useState<string | null>(
+    null
+  );
   const params = useParams<{ name: string }>();
-  let currentName = params.name;
-  let currentMove = MovesList.find((item: any) => {
-    return item.enum === currentName;
-  });
 
   type tsteps = {
     step: string;
@@ -21,32 +19,21 @@ export default function Moves() {
     lead: string;
   };
   type tmoves = {
-    enum: string;
     name: string;
     description: string;
     steps: Array<tsteps>;
   };
-
+  React.useEffect(() => {}, [currentMoveName]);
   return (
     <div className={styles.moveContainer}>
-      <h2 className={styles.select}>{currentMove?.name ?? "Choose a Move"}</h2>
+      <h2 className={styles.select}>{currentMoveName ?? "Choose a Move"}</h2>
       <select
         onChange={(e) => {
-          let NewName: any =
-            MovesList.find((item) => {
-              return item.name === e.target.value;
-            }) === undefined
-              ? { enum: "", name: "", description: "", steps: [] }
-              : MovesList.find((item) => {
-                  return item.name === e.target.value;
-                });
-          if (NewName.enum !== undefined) {
-            history.push(`/moves/${NewName.enum}`);
-          }
+          setCurrentMoveName(e.target.value);
         }}
       >
         <option>Choose a Move</option>
-        {MovesList.map((items: any, x) => {
+        {MovesList.map((items: tmoves, x) => {
           return <option key={x}>{items.name}</option>;
         })}
       </select>
@@ -61,7 +48,7 @@ export default function Moves() {
         ]}
         height={600}
         width={window.innerWidth}
-        gridOptions={{ rowData: currentMove?.steps ?? [] }}
+        gridOptions={{ rowData: [] }}
       />
     </div>
   );
