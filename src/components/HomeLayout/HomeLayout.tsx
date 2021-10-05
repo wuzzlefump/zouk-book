@@ -9,6 +9,10 @@ export default function HomeLayout(props: { children: React.ReactNode }) {
     { to: "/history", label: "History" },
     { to: "/techniques", label: "Techniques" },
     { to: "/moves/beginner", label: "Moves" },
+    { to: "/moves/sf", label: "SF Moves" },
+    { to: "/moves/bronze", label: "Bronze Moves" },
+    { to: "/moves/silver", label: "Silver Moves" },
+    { to: "/moves/gold", label: "Gold Moves" },
     { to: "/resources", label: "Resources" },
     { to: "/glossary", label: "Glossary" },
   ];

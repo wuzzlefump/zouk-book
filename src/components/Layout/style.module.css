@@ -3,7 +3,7 @@
 
   display: grid;
   gap: var(--sp4);
-  grid-template-columns: 120px auto;
+  grid-template-columns: 150px auto;
 }
 .header {
   text-align: center;
