@@ -1,0 +1,14 @@
+.container {
+  display: grid;
+  grid-template-columns: auto;
+  text-align: center;
+  margin-block-end: var(--sp4);
+  margin-block-start: var(--sp4);
+  gap: var(--sp4);
+}
+
+@media (min-width: 1000px) {
+  .container {
+    grid-template-columns: auto auto;
+  }
+}

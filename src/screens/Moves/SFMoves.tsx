@@ -28,7 +28,10 @@ export default function SFMoves() {
   };
 
   return (
-    <div className={styles.moveContainer}>
+    <div
+      style={{ maxWidth: window.innerWidth }}
+      className={styles.moveContainer}
+    >
       <h2 className={styles.select}>{currentMove?.name ?? "Choose a Move"}</h2>
       <select
         onChange={(e) => {

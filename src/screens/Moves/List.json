@@ -4,7 +4,117 @@
     "steps": [
       {
         "step": "1",
-        "count": "-",
+        "count": "1",
+        "footPosition": "Left Foot Back",
+        "amountOfTurn": "-",
+        "footwork": "BF",
+        "lead": "Body Weight"
+      },
+      {
+        "step": "2",
+        "count": "2",
+        "footPosition": "Right Foot Back",
+        "amountOfTurn": "-",
+        "footwork": "BF(Heel kiss)",
+        "lead": "Body Weight"
+      },
+      {
+        "step": "3",
+        "count": "&",
+        "footPosition": "Replace Weight Left Foot",
+        "amountOfTurn": "-",
+        "footwork": "HF or BF",
+        "lead": "Body Weight"
+      },
+      {
+        "step": "4",
+        "count": "3",
+        "footPosition": "Right Foot Forward",
+        "amountOfTurn": "-",
+        "footwork": "HF or BF",
+        "lead": "Body Weight"
+      },
+      {
+        "step": "5",
+        "count": "4",
+        "footPosition": "Left Foot Forward",
+        "amountOfTurn": "-",
+        "footwork": "HF of BF",
+        "lead": "BodyWeight"
+      },
+      {
+        "step": "6",
+        "count": "&",
+        "footPosition": "Replace Weight Right Foot",
+        "amountOfTurn": "-",
+        "footwork": "HF or BF",
+        "lead": "BodyWeight"
+      }
+    ],
+    "description": "",
+    "enum": "LeadBasic"
+  },
+  {
+    "name": "Follow: Basic",
+    "steps": [
+      {
+        "step": "1",
+        "count": "1",
+        "footPosition": " Right Foot Forward",
+        "amountOfTurn": "-",
+        "footwork": "BF or HF",
+        "lead": "Body Weight"
+      },
+      {
+        "step": "2",
+        "count": "2",
+        "footPosition": "Left Foot Forward",
+        "amountOfTurn": "-",
+        "footwork": "BF or HF",
+        "lead": "Body Weight"
+      },
+      {
+        "step": "3",
+        "count": "&",
+        "footPosition": "Replace Weight Right foot",
+        "amountOfTurn": "-",
+        "footwork": "BF",
+        "lead": "Body Weight"
+      },
+      {
+        "step": "4",
+        "count": "3",
+        "footPosition": "Left foot Back",
+        "amountOfTurn": "-",
+        "footwork": "BF",
+        "lead": "Body Weight"
+      },
+      {
+        "step": "5",
+        "count": "4",
+        "footPosition": "Right Foot Back",
+        "amountOfTurn": "-",
+        "footwork": "BF(Heel Kiss)",
+        "lead": "Body Weight"
+      },
+      {
+        "step": "6",
+        "count": "&",
+        "footPosition": "Replace Weight Left Foot",
+        "amountOfTurn": "-",
+        "footwork": "BF or HF",
+        "lead": "Body Weight"
+      }
+    ],
+    "description": "",
+    "enum": "FollowBasic"
+  },
+  {
+    "name": "Lead: Lateral (Corridor)",
+    "steps": [
+      {
+        "step": "1",
+        "count": "1",
         "footPosition": "-",
         "amountOfTurn": "-",
         "footwork": "-",
@@ -12,7 +122,7 @@
       },
       {
         "step": "2",
-        "count": "-",
+        "count": "2",
         "footPosition": "-",
         "amountOfTurn": "-",
         "footwork": "-",
@@ -20,7 +130,7 @@
       },
       {
         "step": "3",
-        "count": "-",
+        "count": "&",
         "footPosition": "-",
         "amountOfTurn": "-",
         "footwork": "-",
@@ -28,7 +138,7 @@
       },
       {
         "step": "4",
-        "count": "-",
+        "count": "3",
         "footPosition": "-",
         "amountOfTurn": "-",
         "footwork": "-",
@@ -36,7 +146,7 @@
       },
       {
         "step": "5",
-        "count": "-",
+        "count": "4",
         "footPosition": "-",
         "amountOfTurn": "-",
         "footwork": "-",
@@ -44,7 +154,103 @@
       },
       {
         "step": "6",
-        "count": "-",
+        "count": "&",
+        "footPosition": "-",
+        "amountOfTurn": "-",
+        "footwork": "-",
+        "lead": "-"
+      },
+      {
+        "step": "7",
+        "count": "5",
+        "footPosition": "-",
+        "amountOfTurn": "-",
+        "footwork": "-",
+        "lead": "-"
+      },
+      {
+        "step": "8",
+        "count": "6",
+        "footPosition": "-",
+        "amountOfTurn": "-",
+        "footwork": "-",
+        "lead": "-"
+      },
+      {
+        "step": "9",
+        "count": "&",
+        "footPosition": "-",
+        "amountOfTurn": "-",
+        "footwork": "-",
+        "lead": "-"
+      },
+      {
+        "step": "10",
+        "count": "7",
+        "footPosition": "-",
+        "amountOfTurn": "-",
+        "footwork": "-",
+        "lead": "-"
+      },
+      {
+        "step": "11",
+        "count": "8",
+        "footPosition": "-",
+        "amountOfTurn": "-",
+        "footwork": "-",
+        "lead": "-"
+      },
+      {
+        "step": "12",
+        "count": "&",
+        "footPosition": "-",
+        "amountOfTurn": "-",
+        "footwork": "-",
+        "lead": "-"
+      },
+      {
+        "step": "13",
+        "count": "(2)",
+        "footPosition": "-",
+        "amountOfTurn": "-",
+        "footwork": "-",
+        "lead": "-"
+      },
+      {
+        "step": "14",
+        "count": "2",
+        "footPosition": "-",
+        "amountOfTurn": "-",
+        "footwork": "-",
+        "lead": "-"
+      },
+      {
+        "step": "15",
+        "count": "&",
+        "footPosition": "-",
+        "amountOfTurn": "-",
+        "footwork": "-",
+        "lead": "-"
+      },
+      {
+        "step": "16",
+        "count": "3",
+        "footPosition": "-",
+        "amountOfTurn": "-",
+        "footwork": "-",
+        "lead": "-"
+      },
+      {
+        "step": "17",
+        "count": "4",
+        "footPosition": "-",
+        "amountOfTurn": "-",
+        "footwork": "-",
+        "lead": "-"
+      },
+      {
+        "step": "18",
+        "count": "&",
         "footPosition": "-",
         "amountOfTurn": "-",
         "footwork": "-",
@@ -52,10 +258,10 @@
       }
     ],
     "description": "",
-    "enum": "LeadBasic"
+    "enum": "LeadLateralCorridor"
   },
   {
-    "name": "FollowBasic",
+    "name": "Follow: Lateral Corridor",
     "steps": [
       {
         "step": "1",
@@ -107,6 +313,6 @@
       }
     ],
     "description": "",
-    "enum": "FollowBasic"
+    "enum": "FollowLateralCorridor"
   }
 ]

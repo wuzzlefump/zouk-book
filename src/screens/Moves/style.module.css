@@ -4,3 +4,11 @@
   margin-block-end: var(--sp4);
   gap: var(--sp4);
 }
+
+select {
+  min-height: 30px;
+  background-color: white;
+  border-style: solid;
+  border-radius: 10px;
+  color: tomato;
+}

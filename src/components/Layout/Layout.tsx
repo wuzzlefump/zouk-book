@@ -27,7 +27,7 @@ export default function Layout(props: { children: React.ReactNode }) {
       </div>
       <div className={styles.children}>
         {" "}
-        <div className={styles.header}>
+        <div style={{ maxWidth: window.innerWidth }} className={styles.header}>
           <h1>Zouk Book</h1>
         </div>
         {children}

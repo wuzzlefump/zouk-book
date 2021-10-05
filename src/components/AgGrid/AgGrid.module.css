@@ -1,0 +1,5 @@
+.grid [class*="ag-header"] {
+  background-color: var(--color-tertiary-d);
+  color: white;
+  text-align: center;
+}

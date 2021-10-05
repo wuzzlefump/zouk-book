@@ -28,9 +28,13 @@ export default function Moves() {
   };
 
   return (
-    <div className={styles.moveContainer}>
+    <div
+      style={{ maxWidth: window.innerWidth }}
+      className={styles.moveContainer}
+    >
       <h2 className={styles.select}>{currentMove?.name ?? "Choose a Move"}</h2>
       <select
+        style={{ maxWidth: window.innerWidth }}
         onChange={(e) => {
           let NewName: any =
             MovesList.find((item) => {
@@ -54,10 +58,10 @@ export default function Moves() {
         columns={[
           { field: "step" },
           { field: "count" },
-          { field: "footPosition" },
+          { field: "footPosition", width: 300 },
           { field: "amountOfTurn" },
           { field: "footwork" },
-          { field: "lead" },
+          { field: "lead", width: 300 },
         ]}
         height={600}
         width={window.innerWidth}

@@ -26,7 +26,10 @@ export default function Moves() {
   };
   React.useEffect(() => {}, [currentMoveName]);
   return (
-    <div className={styles.moveContainer}>
+    <div
+      style={{ maxWidth: window.innerWidth }}
+      className={styles.moveContainer}
+    >
       <h2 className={styles.select}>{currentMoveName ?? "Choose a Move"}</h2>
       <select
         onChange={(e) => {
