@@ -41,7 +41,7 @@ export default function Moves() {
                   return item.name === e.target.value;
                 });
           if (NewName.enum !== undefined) {
-            history.push(`/moves/${NewName.enum}`);
+            history.push(`/moves/beginner/${NewName.enum}`);
           }
         }}
       >

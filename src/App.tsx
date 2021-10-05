@@ -17,10 +17,10 @@ const Home = React.lazy(() => import("./screens/Home/Home"));
 const Glossary = React.lazy(() => import("./screens/Glossary/Glossary"));
 const Resources = React.lazy(() => import("./screens/Resources/Resources"));
 const Moves = React.lazy(() => import("./screens/Moves/Moves"));
-const SFMoves = React.lazy(() => import("./screens/Moves/Moves"));
-const BronzeMoves = React.lazy(() => import("./screens/Moves/Moves"));
-const SilverMoves = React.lazy(() => import("./screens/Moves/Moves"));
-const GoldMoves = React.lazy(() => import("./screens/Moves/Moves"));
+const SFMoves = React.lazy(() => import("./screens/Moves/SFMoves"));
+const BronzeMoves = React.lazy(() => import("./screens/Moves/BronzeMoves"));
+const SilverMoves = React.lazy(() => import("./screens/Moves/SilverMoves"));
+const GoldMoves = React.lazy(() => import("./screens/Moves/GoldMoves"));
 
 const Techniques = React.lazy(() => import("./screens/Techniques/Techniques"));
 const History = React.lazy(() => import("./screens/History/History"));
@@ -58,41 +58,34 @@ const routes: Array<IRouteConfig> = [
   },
   {
     path: "/moves/sf/:name?",
-    title: "Moves",
-    comp: <Moves />,
+    title: "Social Foundations Moves",
+    comp: <SFMoves />,
     Layout: Layout,
     Route: Route,
   },
   {
     path: "/moves/bronze/:name?",
-    title: "Moves",
-    comp: <Moves />,
+    title: "Bronze Moves",
+    comp: <BronzeMoves />,
     Layout: Layout,
     Route: Route,
   },
   {
     path: "/moves/silver/:name?",
-    title: "Moves",
-    comp: <Moves />,
+    title: "SilverMoves",
+    comp: <SilverMoves />,
     Layout: Layout,
     Route: Route,
   },
   {
     path: "/moves/gold/:name?",
-    title: "Moves",
-    comp: <Moves />,
+    title: "Gold Moves",
+    comp: <GoldMoves />,
     Layout: Layout,
     Route: Route,
   },
   {
-    path: "/moves/:name?",
-    title: "Moves",
-    comp: <Moves />,
-    Layout: Layout,
-    Route: Route,
-  },
-  {
-    path: "/moves",
+    path: "/moves/beginner/:name?",
     title: "Moves",
     comp: <Moves />,
     Layout: Layout,

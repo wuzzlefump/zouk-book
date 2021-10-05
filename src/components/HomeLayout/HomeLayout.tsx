@@ -8,7 +8,7 @@ export default function HomeLayout(props: { children: React.ReactNode }) {
     { to: "/", label: "Home" },
     { to: "/history", label: "History" },
     { to: "/techniques", label: "Techniques" },
-    { to: "/moves", label: "Moves" },
+    { to: "/moves/beginner", label: "Moves" },
     { to: "/resources", label: "Resources" },
     { to: "/glossary", label: "Glossary" },
   ];
