@@ -5,7 +5,7 @@
       {
         "step": "1",
         "count": "1",
-        "footPosition": "Left Foot Back",
+        "footMovement": "Left Foot Back",
         "amountOfTurn": "-",
         "footwork": "BF",
         "lead": "Body Weight"
@@ -13,7 +13,7 @@
       {
         "step": "2",
         "count": "2",
-        "footPosition": "Right Foot Back",
+        "footMovement": "Right Foot Back",
         "amountOfTurn": "-",
         "footwork": "BF(Heel kiss)",
         "lead": "Body Weight"
@@ -21,7 +21,7 @@
       {
         "step": "3",
         "count": "&",
-        "footPosition": "Replace Weight Left Foot",
+        "footMovement": "Replace Weight Left Foot",
         "amountOfTurn": "-",
         "footwork": "HF or BF",
         "lead": "Body Weight"
@@ -29,7 +29,7 @@
       {
         "step": "4",
         "count": "3",
-        "footPosition": "Right Foot Forward",
+        "footMovement": "Right Foot Forward",
         "amountOfTurn": "-",
         "footwork": "HF or BF",
         "lead": "Body Weight"
@@ -37,7 +37,7 @@
       {
         "step": "5",
         "count": "4",
-        "footPosition": "Left Foot Forward",
+        "footMovement": "Left Foot Forward",
         "amountOfTurn": "-",
         "footwork": "HF of BF",
         "lead": "BodyWeight"
@@ -45,7 +45,7 @@
       {
         "step": "6",
         "count": "&",
-        "footPosition": "Replace Weight Right Foot",
+        "footMovement": "Replace Weight Right Foot",
         "amountOfTurn": "-",
         "footwork": "HF or BF",
         "lead": "BodyWeight"
@@ -60,7 +60,7 @@
       {
         "step": "1",
         "count": "1",
-        "footPosition": " Right Foot Forward",
+        "footMovement": " Right Foot Forward",
         "amountOfTurn": "-",
         "footwork": "BF or HF",
         "lead": "Body Weight"
@@ -68,7 +68,7 @@
       {
         "step": "2",
         "count": "2",
-        "footPosition": "Left Foot Forward",
+        "footMovement": "Left Foot Forward",
         "amountOfTurn": "-",
         "footwork": "BF or HF",
         "lead": "Body Weight"
@@ -76,7 +76,7 @@
       {
         "step": "3",
         "count": "&",
-        "footPosition": "Replace Weight Right foot",
+        "footMovement": "Replace Weight Right foot",
         "amountOfTurn": "-",
         "footwork": "BF",
         "lead": "Body Weight"
@@ -84,7 +84,7 @@
       {
         "step": "4",
         "count": "3",
-        "footPosition": "Left foot Back",
+        "footMovement": "Left foot Back",
         "amountOfTurn": "-",
         "footwork": "BF",
         "lead": "Body Weight"
@@ -92,7 +92,7 @@
       {
         "step": "5",
         "count": "4",
-        "footPosition": "Right Foot Back",
+        "footMovement": "Right Foot Back",
         "amountOfTurn": "-",
         "footwork": "BF(Heel Kiss)",
         "lead": "Body Weight"
@@ -100,7 +100,7 @@
       {
         "step": "6",
         "count": "&",
-        "footPosition": "Replace Weight Left Foot",
+        "footMovement": "Replace Weight Left Foot",
         "amountOfTurn": "-",
         "footwork": "BF or HF",
         "lead": "Body Weight"
@@ -115,23 +115,23 @@
       {
         "step": "1",
         "count": "1",
-        "footPosition": "-",
+        "footMovement": "Left Foot Back",
         "amountOfTurn": "-",
         "footwork": "-",
-        "lead": "-"
+        "lead": "Body Weight"
       },
       {
         "step": "2",
         "count": "2",
-        "footPosition": "-",
-        "amountOfTurn": "-",
+        "footMovement": "Right Foot Side (small step)",
+        "amountOfTurn": "1/4 turn right over 2 and 3",
         "footwork": "-",
         "lead": "-"
       },
       {
         "step": "3",
         "count": "&",
-        "footPosition": "-",
+        "footMovement": "Left Foot in Place",
         "amountOfTurn": "-",
         "footwork": "-",
         "lead": "-"
@@ -139,7 +139,7 @@
       {
         "step": "4",
         "count": "3",
-        "footPosition": "-",
+        "footMovement": "Right Foot Side",
         "amountOfTurn": "-",
         "footwork": "-",
         "lead": "-"
@@ -147,15 +147,15 @@
       {
         "step": "5",
         "count": "4",
-        "footPosition": "-",
-        "amountOfTurn": "-",
+        "footMovement": "Left Foot Forward in CBMP",
+        "amountOfTurn": "Body turns slightly left",
         "footwork": "-",
         "lead": "-"
       },
       {
         "step": "6",
         "count": "&",
-        "footPosition": "-",
+        "footMovement": "Replace Weight Right Foot",
         "amountOfTurn": "-",
         "footwork": "-",
         "lead": "-"
@@ -163,23 +163,23 @@
       {
         "step": "7",
         "count": "5",
-        "footPosition": "-",
-        "amountOfTurn": "-",
+        "footMovement": "Left foot side ",
+        "amountOfTurn": "Body turns back to center",
         "footwork": "-",
         "lead": "-"
       },
       {
         "step": "8",
         "count": "6",
-        "footPosition": "-",
-        "amountOfTurn": "-",
+        "footMovement": "Right Foot Forward in CBMP",
+        "amountOfTurn": "Body Turns Slightly Right",
         "footwork": "-",
         "lead": "-"
       },
       {
         "step": "9",
         "count": "&",
-        "footPosition": "-",
+        "footMovement": "replace weight Left foot",
         "amountOfTurn": "-",
         "footwork": "-",
         "lead": "-"
@@ -187,86 +187,38 @@
       {
         "step": "10",
         "count": "7",
-        "footPosition": "-",
-        "amountOfTurn": "-",
+        "footMovement": "Right foot side",
+        "amountOfTurn": "Body returns to center",
         "footwork": "-",
         "lead": "-"
       },
       {
         "step": "11",
         "count": "8",
-        "footPosition": "-",
-        "amountOfTurn": "-",
+        "footMovement": "Left foot Forward in cbmp ",
+        "amountOfTurn": "1/4 turn left between 11 & 12",
         "footwork": "-",
         "lead": "-"
       },
       {
         "step": "12",
         "count": "&",
-        "footPosition": "-",
-        "amountOfTurn": "-",
-        "footwork": "-",
-        "lead": "-"
-      },
-      {
-        "step": "13",
-        "count": "(2)",
-        "footPosition": "-",
-        "amountOfTurn": "-",
-        "footwork": "-",
-        "lead": "-"
-      },
-      {
-        "step": "14",
-        "count": "2",
-        "footPosition": "-",
-        "amountOfTurn": "-",
-        "footwork": "-",
-        "lead": "-"
-      },
-      {
-        "step": "15",
-        "count": "&",
-        "footPosition": "-",
-        "amountOfTurn": "-",
-        "footwork": "-",
-        "lead": "-"
-      },
-      {
-        "step": "16",
-        "count": "3",
-        "footPosition": "-",
-        "amountOfTurn": "-",
-        "footwork": "-",
-        "lead": "-"
-      },
-      {
-        "step": "17",
-        "count": "4",
-        "footPosition": "-",
-        "amountOfTurn": "-",
-        "footwork": "-",
-        "lead": "-"
-      },
-      {
-        "step": "18",
-        "count": "&",
-        "footPosition": "-",
+        "footMovement": "Right foot side",
         "amountOfTurn": "-",
         "footwork": "-",
         "lead": "-"
       }
     ],
-    "description": "",
+    "description": "steps 1-3 transition from basic to lateral, steps 4-9 lateral (corridor), steps 10-12 transition back to normal basic",
     "enum": "LeadLateralCorridor"
   },
   {
-    "name": "Follow: Lateral Corridor",
+    "name": "Follow: Lateral (Corridor)",
     "steps": [
       {
         "step": "1",
         "count": "-",
-        "footPosition": "-",
+        "footMovement": "",
         "amountOfTurn": "-",
         "footwork": "-",
         "lead": "-"
@@ -274,7 +226,7 @@
       {
         "step": "2",
         "count": "-",
-        "footPosition": "-",
+        "footMovement": "",
         "amountOfTurn": "-",
         "footwork": "-",
         "lead": "-"
@@ -282,7 +234,7 @@
       {
         "step": "3",
         "count": "-",
-        "footPosition": "-",
+        "footMovement": "",
         "amountOfTurn": "-",
         "footwork": "-",
         "lead": "-"
@@ -290,7 +242,7 @@
       {
         "step": "4",
         "count": "-",
-        "footPosition": "-",
+        "footMovement": "",
         "amountOfTurn": "-",
         "footwork": "-",
         "lead": "-"
@@ -298,7 +250,7 @@
       {
         "step": "5",
         "count": "-",
-        "footPosition": "-",
+        "footMovement": "",
         "amountOfTurn": "-",
         "footwork": "-",
         "lead": "-"
@@ -306,7 +258,7 @@
       {
         "step": "6",
         "count": "-",
-        "footPosition": "-",
+        "footMovement": "",
         "amountOfTurn": "-",
         "footwork": "-",
         "lead": "-"

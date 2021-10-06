@@ -58,7 +58,7 @@ export default function Moves() {
         columns={[
           { field: "step" },
           { field: "count" },
-          { field: "footPosition", width: 300 },
+          { field: "footMovement", width: 300 },
           { field: "amountOfTurn" },
           { field: "footwork" },
           { field: "lead", width: 300 },
