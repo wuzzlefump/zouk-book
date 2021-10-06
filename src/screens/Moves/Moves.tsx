@@ -15,7 +15,7 @@ export default function Moves() {
   type tsteps = {
     step: string;
     count: string;
-    footPosition: string;
+    footMovement: string;
     amountOfTurn: string;
     footwork: string;
     lead: string;
@@ -56,12 +56,43 @@ export default function Moves() {
       </select>
       <AgGrid
         columns={[
-          { field: "step" },
-          { field: "count" },
-          { field: "footMovement", width: 300 },
-          { field: "amountOfTurn" },
-          { field: "footwork" },
-          { field: "lead", width: 300 },
+          {
+            field: "step",
+            cellStyle: { "white-space": "normal" },
+            autoHeight: true,
+          },
+          {
+            field: "count",
+            cellStyle: { "white-space": "normal" },
+            autoHeight: true,
+          },
+          {
+            field: "count",
+            cellStyle: { "white-space": "normal" },
+            autoHeight: true,
+          },
+          {
+            field: "footMovement",
+            width: 300,
+            cellStyle: { "white-space": "normal" },
+            autoHeight: true,
+          },
+          {
+            field: "amountOfTurn",
+            cellStyle: { "white-space": "normal" },
+            autoHeight: true,
+          },
+          {
+            field: "footwork",
+            cellStyle: { "white-space": "normal" },
+            autoHeight: true,
+          },
+          {
+            field: "lead",
+            width: 300,
+            cellStyle: { "white-space": "normal" },
+            autoHeight: true,
+          },
         ]}
         height={600}
         width={window.innerWidth}
