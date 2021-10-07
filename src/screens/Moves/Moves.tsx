@@ -3,6 +3,7 @@ import styles from "./style.module.css";
 import { AgGrid } from "../../components/AgGrid/AgGrid";
 import MovesList from "./List.json";
 import { useParams, useHistory } from "react-router";
+import { DescriptionDisclosure } from "../../components/Disclosure/Disclosure";
 
 export default function Moves() {
   const history = useHistory();
@@ -97,6 +98,10 @@ export default function Moves() {
         height={600}
         width={window.innerWidth}
         gridOptions={{ rowData: currentMove?.steps ?? [] }}
+      />
+      <DescriptionDisclosure
+        button={"Description"}
+        children={<p>{currentMove?.description}</p>}
       />
     </div>
   );
