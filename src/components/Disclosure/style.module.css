@@ -1,0 +1,19 @@
+.description button {
+  background-color: antiquewhite;
+  color: var(--color-tertiary-d);
+  border-style: solid;
+  border-color: var(--color-tertiary-d);
+  border-radius: 10px;
+}
+
+.description div {
+  margin-block-start: var(--sp4);
+  border-color: black;
+  background-color: white;
+  border-width: 1px;
+  border-style: solid;
+  padding: var(--sp4) var(--sp5);
+}
+.description {
+  margin-block-end: var(--spA);
+}
