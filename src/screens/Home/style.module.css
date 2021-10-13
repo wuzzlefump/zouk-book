@@ -1,0 +1,15 @@
+.home {
+  text-align: center;
+  background-color: var(--color-secondary-d);
+  margin-block-start: 30px;
+  border-radius: 10px;
+  border-style: solid;
+  border-color: black;
+  border-width: 1px;
+  padding-block-start: 10px;
+  padding-block-end: 10px;
+  margin-block-end: 20px;
+  margin-inline-start: var(--sp8);
+  margin-inline-end: var(--sp8);
+  height: 650px;
+}

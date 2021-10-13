@@ -7,7 +7,7 @@
 }
 .header {
   text-align: center;
-  background-color: var(--color-secondary);
+  background-color: var(--color-secondary-d);
   margin-block-start: 20px;
   border-radius: 10px;
   padding-block-start: 10px;
