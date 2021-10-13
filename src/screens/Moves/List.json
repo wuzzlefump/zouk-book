@@ -1,6 +1,6 @@
 [
   {
-    "name": "Lead: Basic",
+    "name": " 1) Lead: Basic",
     "steps": [
       {
         "step": "1",
@@ -55,7 +55,7 @@
     "enum": "LeadBasic"
   },
   {
-    "name": "Follow: Basic",
+    "name": "1) Follow: Basic",
     "steps": [
       {
         "step": "1",
@@ -110,7 +110,7 @@
     "enum": "FollowBasic"
   },
   {
-    "name": "Lead: Lateral (Corridor)",
+    "name": " 2) Lead: Lateral (Corridor)",
     "steps": [
       {
         "step": "1",
@@ -213,7 +213,7 @@
     "enum": "LeadLateralCorridor"
   },
   {
-    "name": "Follow: Lateral (Corridor)",
+    "name": "2) Follow: Lateral (Corridor)",
     "steps": [
       {
         "step": "1",
@@ -316,52 +316,60 @@
     "enum": "FollowLateralCorridor"
   },
   {
-    "name": "Lead: Simple Turn (Giro)",
+    "name": " 3a) Lead: Simple Turn (Giro)",
     "steps": [
       {
-        "step": "1",
-        "count": "-",
-        "footPosition": "-",
+        "step": "1-6",
+        "count": "1,2,&3,4,&",
+        "footMovement": "Steps 1-6 of lateral",
         "amountOfTurn": "-",
         "footwork": "-",
         "lead": "-"
       },
       {
-        "step": "2",
-        "count": "-",
-        "footPosition": "-",
+        "step": "7",
+        "count": "(2)",
+        "footMovement": "-",
         "amountOfTurn": "-",
         "footwork": "-",
         "lead": "-"
       },
       {
-        "step": "3",
-        "count": "-",
-        "footPosition": "-",
+        "step": "8",
+        "count": "2",
+        "footMovement": "-",
         "amountOfTurn": "-",
         "footwork": "-",
         "lead": "-"
       },
       {
-        "step": "4",
-        "count": "-",
-        "footPosition": "-",
+        "step": "9",
+        "count": "&",
+        "footMovement": "-",
         "amountOfTurn": "-",
         "footwork": "-",
         "lead": "-"
       },
       {
-        "step": "5",
-        "count": "-",
-        "footPosition": "-",
+        "step": "10",
+        "count": "3",
+        "footMovement": "-",
         "amountOfTurn": "-",
         "footwork": "-",
         "lead": "-"
       },
       {
-        "step": "6",
-        "count": "-",
-        "footPosition": "-",
+        "step": "11",
+        "count": "4",
+        "footMovement": "-",
+        "amountOfTurn": "-",
+        "footwork": "-",
+        "lead": "-"
+      },
+      {
+        "step": "12",
+        "count": "&",
+        "footMovement": "-",
         "amountOfTurn": "-",
         "footwork": "-",
         "lead": "-"
@@ -371,12 +379,12 @@
     "enum": "LeadSimpleTurnGiro"
   },
   {
-    "name": "Follow: Simple Turn (Giro)",
+    "name": " 3a) Follow: Simple Turn (Giro)",
     "steps": [
       {
         "step": "1",
         "count": "-",
-        "footPosition": "-",
+        "footMovement": " Steps 1-6 of Lateral",
         "amountOfTurn": "-",
         "footwork": "-",
         "lead": "-"
@@ -384,7 +392,7 @@
       {
         "step": "2",
         "count": "-",
-        "footPosition": "-",
+        "footMovement": "-",
         "amountOfTurn": "-",
         "footwork": "-",
         "lead": "-"
@@ -392,7 +400,7 @@
       {
         "step": "3",
         "count": "-",
-        "footPosition": "-",
+        "footMovement": "-",
         "amountOfTurn": "-",
         "footwork": "-",
         "lead": "-"
@@ -400,7 +408,7 @@
       {
         "step": "4",
         "count": "-",
-        "footPosition": "-",
+        "footMovement": "-",
         "amountOfTurn": "-",
         "footwork": "-",
         "lead": "-"
@@ -408,7 +416,7 @@
       {
         "step": "5",
         "count": "-",
-        "footPosition": "-",
+        "footMovement": "-",
         "amountOfTurn": "-",
         "footwork": "-",
         "lead": "-"
@@ -416,7 +424,7 @@
       {
         "step": "6",
         "count": "-",
-        "footPosition": "-",
+        "footMovement": "-",
         "amountOfTurn": "-",
         "footwork": "-",
         "lead": "-"
