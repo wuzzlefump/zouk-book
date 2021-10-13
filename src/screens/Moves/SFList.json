@@ -1,6 +1,6 @@
 [
   {
-    "name": "Lead: Example",
+    "name": "Lead: Viradinha",
     "steps": [
       {
         "step": "1",
@@ -52,10 +52,10 @@
       }
     ],
     "description": "",
-    "enum": "LeadExample"
+    "enum": "LeadViradinha"
   },
   {
-    "name": "Follow: Example",
+    "name": "Follow: Viradinha",
     "steps": [
       {
         "step": "1",
@@ -107,6 +107,446 @@
       }
     ],
     "description": "",
-    "enum": "FollowExample"
+    "enum": "FollowViradinha"
+  },
+  {
+    "name": "Lead: Lunge to simple turn",
+    "steps": [
+      {
+        "step": "1",
+        "count": "-",
+        "footPosition": "-",
+        "amountOfTurn": "-",
+        "footwork": "-",
+        "lead": "-"
+      },
+      {
+        "step": "2",
+        "count": "-",
+        "footPosition": "-",
+        "amountOfTurn": "-",
+        "footwork": "-",
+        "lead": "-"
+      },
+      {
+        "step": "3",
+        "count": "-",
+        "footPosition": "-",
+        "amountOfTurn": "-",
+        "footwork": "-",
+        "lead": "-"
+      },
+      {
+        "step": "4",
+        "count": "-",
+        "footPosition": "-",
+        "amountOfTurn": "-",
+        "footwork": "-",
+        "lead": "-"
+      },
+      {
+        "step": "5",
+        "count": "-",
+        "footPosition": "-",
+        "amountOfTurn": "-",
+        "footwork": "-",
+        "lead": "-"
+      },
+      {
+        "step": "6",
+        "count": "-",
+        "footPosition": "-",
+        "amountOfTurn": "-",
+        "footwork": "-",
+        "lead": "-"
+      }
+    ],
+    "description": "",
+    "enum": "LeadLungeToTurn"
+  },
+  {
+    "name": "Follow: Lunge to simple turn",
+    "steps": [
+      {
+        "step": "1",
+        "count": "-",
+        "footPosition": "-",
+        "amountOfTurn": "-",
+        "footwork": "-",
+        "lead": "-"
+      },
+      {
+        "step": "2",
+        "count": "-",
+        "footPosition": "-",
+        "amountOfTurn": "-",
+        "footwork": "-",
+        "lead": "-"
+      },
+      {
+        "step": "3",
+        "count": "-",
+        "footPosition": "-",
+        "amountOfTurn": "-",
+        "footwork": "-",
+        "lead": "-"
+      },
+      {
+        "step": "4",
+        "count": "-",
+        "footPosition": "-",
+        "amountOfTurn": "-",
+        "footwork": "-",
+        "lead": "-"
+      },
+      {
+        "step": "5",
+        "count": "-",
+        "footPosition": "-",
+        "amountOfTurn": "-",
+        "footwork": "-",
+        "lead": "-"
+      },
+      {
+        "step": "6",
+        "count": "-",
+        "footPosition": "-",
+        "amountOfTurn": "-",
+        "footwork": "-",
+        "lead": "-"
+      }
+    ],
+    "description": "",
+    "enum": "FollowLungeToTurn"
+  },
+  {
+    "name": "Lead: Lo Lo (Yo Yo)",
+    "steps": [
+      {
+        "step": "1",
+        "count": "-",
+        "footPosition": "-",
+        "amountOfTurn": "-",
+        "footwork": "-",
+        "lead": "-"
+      },
+      {
+        "step": "2",
+        "count": "-",
+        "footPosition": "-",
+        "amountOfTurn": "-",
+        "footwork": "-",
+        "lead": "-"
+      },
+      {
+        "step": "3",
+        "count": "-",
+        "footPosition": "-",
+        "amountOfTurn": "-",
+        "footwork": "-",
+        "lead": "-"
+      },
+      {
+        "step": "4",
+        "count": "-",
+        "footPosition": "-",
+        "amountOfTurn": "-",
+        "footwork": "-",
+        "lead": "-"
+      },
+      {
+        "step": "5",
+        "count": "-",
+        "footPosition": "-",
+        "amountOfTurn": "-",
+        "footwork": "-",
+        "lead": "-"
+      },
+      {
+        "step": "6",
+        "count": "-",
+        "footPosition": "-",
+        "amountOfTurn": "-",
+        "footwork": "-",
+        "lead": "-"
+      }
+    ],
+    "description": "",
+    "enum": "LeadLoLo"
+  },
+  {
+    "name": "Follow: Lo Lo (Yo Yo)",
+    "steps": [
+      {
+        "step": "1",
+        "count": "-",
+        "footPosition": "-",
+        "amountOfTurn": "-",
+        "footwork": "-",
+        "lead": "-"
+      },
+      {
+        "step": "2",
+        "count": "-",
+        "footPosition": "-",
+        "amountOfTurn": "-",
+        "footwork": "-",
+        "lead": "-"
+      },
+      {
+        "step": "3",
+        "count": "-",
+        "footPosition": "-",
+        "amountOfTurn": "-",
+        "footwork": "-",
+        "lead": "-"
+      },
+      {
+        "step": "4",
+        "count": "-",
+        "footPosition": "-",
+        "amountOfTurn": "-",
+        "footwork": "-",
+        "lead": "-"
+      },
+      {
+        "step": "5",
+        "count": "-",
+        "footPosition": "-",
+        "amountOfTurn": "-",
+        "footwork": "-",
+        "lead": "-"
+      },
+      {
+        "step": "6",
+        "count": "-",
+        "footPosition": "-",
+        "amountOfTurn": "-",
+        "footwork": "-",
+        "lead": "-"
+      }
+    ],
+    "description": "",
+    "enum": "FollowLoLo"
+  },
+  {
+    "name": "Lead: Boomerang (Bonus)",
+    "steps": [
+      {
+        "step": "1",
+        "count": "-",
+        "footPosition": "-",
+        "amountOfTurn": "-",
+        "footwork": "-",
+        "lead": "-"
+      },
+      {
+        "step": "2",
+        "count": "-",
+        "footPosition": "-",
+        "amountOfTurn": "-",
+        "footwork": "-",
+        "lead": "-"
+      },
+      {
+        "step": "3",
+        "count": "-",
+        "footPosition": "-",
+        "amountOfTurn": "-",
+        "footwork": "-",
+        "lead": "-"
+      },
+      {
+        "step": "4",
+        "count": "-",
+        "footPosition": "-",
+        "amountOfTurn": "-",
+        "footwork": "-",
+        "lead": "-"
+      },
+      {
+        "step": "5",
+        "count": "-",
+        "footPosition": "-",
+        "amountOfTurn": "-",
+        "footwork": "-",
+        "lead": "-"
+      },
+      {
+        "step": "6",
+        "count": "-",
+        "footPosition": "-",
+        "amountOfTurn": "-",
+        "footwork": "-",
+        "lead": "-"
+      }
+    ],
+    "description": "",
+    "enum": "LeadBoomerang"
+  },
+  {
+    "name": "Follow: Boomerang (Bonus)",
+    "steps": [
+      {
+        "step": "1",
+        "count": "-",
+        "footPosition": "-",
+        "amountOfTurn": "-",
+        "footwork": "-",
+        "lead": "-"
+      },
+      {
+        "step": "2",
+        "count": "-",
+        "footPosition": "-",
+        "amountOfTurn": "-",
+        "footwork": "-",
+        "lead": "-"
+      },
+      {
+        "step": "3",
+        "count": "-",
+        "footPosition": "-",
+        "amountOfTurn": "-",
+        "footwork": "-",
+        "lead": "-"
+      },
+      {
+        "step": "4",
+        "count": "-",
+        "footPosition": "-",
+        "amountOfTurn": "-",
+        "footwork": "-",
+        "lead": "-"
+      },
+      {
+        "step": "5",
+        "count": "-",
+        "footPosition": "-",
+        "amountOfTurn": "-",
+        "footwork": "-",
+        "lead": "-"
+      },
+      {
+        "step": "6",
+        "count": "-",
+        "footPosition": "-",
+        "amountOfTurn": "-",
+        "footwork": "-",
+        "lead": "-"
+      }
+    ],
+    "description": "",
+    "enum": "FollowBoomerang"
+  },
+  {
+    "name": "Lead: Soltinho",
+    "steps": [
+      {
+        "step": "1",
+        "count": "-",
+        "footPosition": "-",
+        "amountOfTurn": "-",
+        "footwork": "-",
+        "lead": "-"
+      },
+      {
+        "step": "2",
+        "count": "-",
+        "footPosition": "-",
+        "amountOfTurn": "-",
+        "footwork": "-",
+        "lead": "-"
+      },
+      {
+        "step": "3",
+        "count": "-",
+        "footPosition": "-",
+        "amountOfTurn": "-",
+        "footwork": "-",
+        "lead": "-"
+      },
+      {
+        "step": "4",
+        "count": "-",
+        "footPosition": "-",
+        "amountOfTurn": "-",
+        "footwork": "-",
+        "lead": "-"
+      },
+      {
+        "step": "5",
+        "count": "-",
+        "footPosition": "-",
+        "amountOfTurn": "-",
+        "footwork": "-",
+        "lead": "-"
+      },
+      {
+        "step": "6",
+        "count": "-",
+        "footPosition": "-",
+        "amountOfTurn": "-",
+        "footwork": "-",
+        "lead": "-"
+      }
+    ],
+    "description": "",
+    "enum": "LeadSoltinho"
+  },
+  {
+    "name": "Follow: Soltinho",
+    "steps": [
+      {
+        "step": "1",
+        "count": "-",
+        "footPosition": "-",
+        "amountOfTurn": "-",
+        "footwork": "-",
+        "lead": "-"
+      },
+      {
+        "step": "2",
+        "count": "-",
+        "footPosition": "-",
+        "amountOfTurn": "-",
+        "footwork": "-",
+        "lead": "-"
+      },
+      {
+        "step": "3",
+        "count": "-",
+        "footPosition": "-",
+        "amountOfTurn": "-",
+        "footwork": "-",
+        "lead": "-"
+      },
+      {
+        "step": "4",
+        "count": "-",
+        "footPosition": "-",
+        "amountOfTurn": "-",
+        "footwork": "-",
+        "lead": "-"
+      },
+      {
+        "step": "5",
+        "count": "-",
+        "footPosition": "-",
+        "amountOfTurn": "-",
+        "footwork": "-",
+        "lead": "-"
+      },
+      {
+        "step": "6",
+        "count": "-",
+        "footPosition": "-",
+        "amountOfTurn": "-",
+        "footwork": "-",
+        "lead": "-"
+      }
+    ],
+    "description": "",
+    "enum": "FollowSoltinho"
   }
 ]
