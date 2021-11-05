@@ -13,21 +13,6 @@ export default function Moves() {
     return item.enum === currentName;
   });
 
-  type tsteps = {
-    step: string;
-    count: string;
-    footMovement: string;
-    amountOfTurn: string;
-    footwork: string;
-    lead: string;
-  };
-  type tmoves = {
-    enum: string;
-    name: string;
-    description: string;
-    steps: Array<tsteps>;
-  };
-
   return (
     <div
       style={{ maxWidth: window.innerWidth }}
@@ -80,11 +65,6 @@ export default function Moves() {
           },
           {
             field: "amountOfTurn",
-            cellStyle: { "white-space": "normal" },
-            autoHeight: true,
-          },
-          {
-            field: "footwork",
             cellStyle: { "white-space": "normal" },
             autoHeight: true,
           },

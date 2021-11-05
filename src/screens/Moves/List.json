@@ -1,6 +1,6 @@
 [
   {
-    "name": " 1) Lead: Basic",
+    "name": "1) Lead: Basic",
     "steps": [
       {
         "step": "1",
@@ -110,7 +110,7 @@
     "enum": "FollowBasic"
   },
   {
-    "name": " 2) Lead: Lateral (Corridor)",
+    "name": "2) Lead: Lateral (Corridor)",
     "steps": [
       {
         "step": "1",
@@ -209,8 +209,8 @@
         "lead": "Lead centers himself on follows track his right foot should be between her feet."
       }
     ],
-    "description": "steps 1-3 transition from basic to lateral, steps 4-9 lateral (corridor), steps 10-12 transition back to normal basic. it is importang to note that the lead and follow's chest rotate toward each other throughout the step. you can repeat steps 4-9 as needed",
-    "enum": "LeadLateralCorridor"
+    "enum": "LeadLateralCorridor",
+    "description": "steps 1-3 transition from basic to lateral, steps 4-9 lateral (corridor), steps 10-12 transition back to normal basic. it is importang to note that the lead and follow's chest rotate toward each other throughout the step. you can repeat steps 4-9 as needed"
   },
   {
     "name": "2) Follow: Lateral (Corridor)",
@@ -227,7 +227,7 @@
         "step": "2",
         "count": "2",
         "footMovement": "Left foot forward End left foot Back (swivel)",
-        "amountOfTurn": "1/2 turn R between 2 & 3",
+        "amountOfTurn": "1/2 turn R on 3",
         "footwork": "-",
         "lead": "-"
       },
@@ -251,7 +251,7 @@
         "step": "5",
         "count": "4",
         "footMovement": "Right Foot Forward End right foot back (swivel)",
-        "amountOfTurn": "1/2 Left between 5& 6",
+        "amountOfTurn": "1/2 Left on 6",
         "footwork": "-",
         "lead": "-"
       },
@@ -275,7 +275,7 @@
         "step": "8",
         "count": "2",
         "footMovement": "Left Foot Forward end Left foot Back ",
-        "amountOfTurn": "1/2 turn right between 8 and 9",
+        "amountOfTurn": "1/2 turn right on 9",
         "footwork": "-",
         "lead": "-"
       },
@@ -299,7 +299,7 @@
         "step": "11",
         "count": "4",
         "footMovement": "Right Foot Forward end right foot back (swivel)",
-        "amountOfTurn": "1/2 turn Left between 11 and 12",
+        "amountOfTurn": "1/2 turn Left on 12",
         "footwork": "-",
         "lead": "-"
       },
@@ -316,7 +316,7 @@
     "enum": "FollowLateralCorridor"
   },
   {
-    "name": " 3a) Lead: Simple Turn (Giro)",
+    "name": "3a) Lead: Simple Turn (Giro)",
     "steps": [
       {
         "step": "1-6",
@@ -379,7 +379,7 @@
     "enum": "LeadSimpleTurnGiro"
   },
   {
-    "name": " 3a) Follow: Simple Turn (Giro)",
+    "name": "3a) Follow: Simple Turn (Giro)",
     "steps": [
       {
         "step": "1",
