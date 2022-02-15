@@ -1,1 +1,0 @@
-{"version":3,"sources":["screens/History/History.tsx"],"names":["History"],"mappings":"8GAAA,+DAGe,SAASA,IACtB,OAAO","file":"static/js/12.10d2d3f9.chunk.js","sourcesContent":["import * as React from \"react\";\nimport styles from \"style.module.css\";\n\nexport default function History() {\n  return <div>History</div>;\n}\n"],"sourceRoot":""}

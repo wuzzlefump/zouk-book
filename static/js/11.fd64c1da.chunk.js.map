@@ -1,0 +1,1 @@
+{"version":3,"sources":["screens/Resources/Resources.tsx"],"names":["Resources"],"mappings":"8GAAA,+DAGe,SAASA,IACtB,OAAO","file":"static/js/11.fd64c1da.chunk.js","sourcesContent":["import * as React from \"react\";\nimport styles from \"style.module.css\";\n\nexport default function Resources() {\n  return <>Resources</>;\n}\n"],"sourceRoot":""}

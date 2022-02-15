@@ -1,0 +1,2 @@
+(this["webpackJsonpzouk-book"]=this["webpackJsonpzouk-book"]||[]).push([[8],{55:function(o,t,e){o.exports={home:"style_home__3JgXY"}},85:function(o,t,e){"use strict";e.r(t),e.d(t,"default",(function(){return c}));e(0);var n=e(55),s=e.n(n),u=e(1);function c(){return Object(u.jsx)("div",{className:s.a.home})}}}]);
+//# sourceMappingURL=8.ab781edb.chunk.js.map

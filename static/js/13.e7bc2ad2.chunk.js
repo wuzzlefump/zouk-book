@@ -1,2 +1,0 @@
-(this["webpackJsonpzouk-book"]=this["webpackJsonpzouk-book"]||[]).push([[13],{90:function(n,o,t){"use strict";t.r(o),t.d(o,"default",(function(){return u}));t(0);var e=t(1);function u(){return Object(e.jsx)(e.Fragment,{children:"Resources"})}}}]);
-//# sourceMappingURL=13.e7bc2ad2.chunk.js.map
