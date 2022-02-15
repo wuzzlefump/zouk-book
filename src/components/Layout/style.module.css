@@ -1,6 +1,6 @@
 .container {
   background-color: antiquewhite;
-
+  min-height: 100vh;
   display: grid;
   gap: var(--sp4);
   grid-template-columns: 150px auto;
