@@ -19,8 +19,6 @@ const Resources = React.lazy(() => import("./screens/Resources/Resources"));
 const Moves = React.lazy(() => import("./screens/Moves/Moves"));
 const SFMoves = React.lazy(() => import("./screens/Moves/SFMoves"));
 const BronzeMoves = React.lazy(() => import("./screens/Moves/BronzeMoves"));
-const SilverMoves = React.lazy(() => import("./screens/Moves/SilverMoves"));
-const GoldMoves = React.lazy(() => import("./screens/Moves/GoldMoves"));
 
 const Techniques = React.lazy(() => import("./screens/Techniques/Techniques"));
 const History = React.lazy(() => import("./screens/History/History"));
@@ -71,20 +69,6 @@ const routes: Array<IRouteConfig> = [
     Route: Route,
   },
   {
-    path: "/moves/silver/:name?",
-    title: "SilverMoves",
-    comp: <SilverMoves />,
-    Layout: Layout,
-    Route: Route,
-  },
-  {
-    path: "/moves/gold/:name?",
-    title: "Gold Moves",
-    comp: <GoldMoves />,
-    Layout: Layout,
-    Route: Route,
-  },
-  {
     path: "/moves/beginner/:name?",
     title: "Moves",
     comp: <Moves />,
@@ -110,7 +94,7 @@ const routes: Array<IRouteConfig> = [
 //RouteSetup
 function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename={process.env.PUBLIC_URL}>
       <Switch>
         {routes.map((x, i) => {
           const RouteComp = x.Route;

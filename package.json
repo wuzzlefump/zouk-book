@@ -1,8 +1,8 @@
 {
-  "name": "zouk-book",
+ "homepage": "http://wuzzlefump.github.io/zouk-book",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://wuzzlefump.github.io/zouk-book",
+   "name": "zouk-book",
   "dependencies": {
     "@reach/disclosure": "^0.16.0",
     "@testing-library/jest-dom": "^5.11.4",
