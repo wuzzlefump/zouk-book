@@ -1,6 +1,212 @@
 [
   {
-    "name": "Lead: Viradinha",
+    "name": "1a) Lead: Simple Turn (Giro)",
+    "steps": [
+      {
+        "step": "1-6",
+        "count": "1,2,&3,4,&",
+        "footMovement": "Steps 1-6 of lateral",
+        "amountOfTurn": "-",
+        "footwork": "-",
+        "lead": "-"
+      },
+      {
+        "step": "7",
+        "count": "(2)",
+        "footMovement": "L foot side",
+        "amountOfTurn": "-",
+        "footwork": "-",
+        "lead": "continuing to lead lateral"
+      },
+      {
+        "step": "8",
+        "count": "2",
+        "footMovement": "R foot Forward",
+        "amountOfTurn": "body turns rt",
+        "footwork": "-",
+        "lead": "-"
+      },
+      {
+        "step": "9",
+        "count": "&",
+        "footMovement": "Left foot side and slightly back",
+        "amountOfTurn": "1/4 rt between 8 and 9",
+        "footwork": "-",
+        "lead": "left hand begins to raise for ladies turn."
+      },
+      {
+        "step": "10",
+        "count": "3",
+        "footMovement": "right foot diagonally back",
+        "amountOfTurn": "-",
+        "footwork": "-",
+        "lead": "reverse turn follow towards you"
+      },
+      {
+        "step": "11",
+        "count": "4",
+        "footMovement": "L back small step",
+        "amountOfTurn": "-",
+        "footwork": "-",
+        "lead": "continue to turn follow"
+      },
+      {
+        "step": "12",
+        "count": "&",
+        "footMovement": "r back small step",
+        "amountOfTurn": "-",
+        "footwork": "-",
+        "lead": "finish turning follow and collect them "
+      }
+    ],
+    "description": "",
+    "enum": "LeadSimpleTurnGiro"
+  },
+  {
+    "name": "1a) Follow: Simple Turn (Giro)",
+    "steps": [
+      {
+        "step": "1-9",
+        "count": "1-2 & 3-4 & (2)-2&",
+        "footMovement": " Steps 1-9 of Lateral",
+        "amountOfTurn": "-",
+        "footwork": "-",
+        "lead": "-"
+      },
+
+      {
+        "step": "10",
+        "count": "3",
+        "footMovement": "forward (pivot)",
+        "amountOfTurn": "1/2 Left on 10",
+        "footwork": "-",
+        "lead": "pivoting reverse turn turn toward partner"
+      },
+      {
+        "step": "11",
+        "count": "4",
+        "footMovement": "back (pivot)",
+        "amountOfTurn": "1/2 0n 11",
+        "footwork": "-",
+        "lead": "-"
+      },
+      {
+        "step": "12",
+        "count": "&",
+        "footMovement": "forward",
+        "amountOfTurn": "-",
+        "footwork": "-",
+        "lead": "-"
+      }
+    ],
+    "description": "",
+    "enum": "FollowSimpleTurnGiro"
+  },
+  {
+    "name": "1b) Lead: Lunge To Simple Turn (Giro)",
+    "steps": [
+      {
+        "step": "1-6",
+        "count": "1,2,&3,4,&",
+        "footMovement": "Steps 1-6 of lateral",
+        "amountOfTurn": "-",
+        "footwork": "-",
+        "lead": "-"
+      },
+      {
+        "step": "7",
+        "count": "(2)",
+        "footMovement": "L foot side",
+        "amountOfTurn": "-",
+        "footwork": "-",
+        "lead": "continuing to lead lateral"
+      },
+      {
+        "step": "8",
+        "count": "2",
+        "footMovement": "R  Diagonally Forward (toward partner)",
+        "amountOfTurn": "body turns rt",
+        "footwork": "-",
+        "lead": "-"
+      },
+      {
+        "step": "9",
+        "count": "&",
+        "footMovement": "Left foot side and slightly forward (lunge)",
+        "amountOfTurn": "1/4 rt between 8 and 9",
+        "footwork": "-",
+        "lead": "left hand begins to raise for ladies turn."
+      },
+      {
+        "step": "10",
+        "count": "3",
+        "footMovement": "right foot side and slightly back",
+        "amountOfTurn": "-",
+        "footwork": "-",
+        "lead": "reverse turn follow towards you"
+      },
+      {
+        "step": "11",
+        "count": "4",
+        "footMovement": "L close to right foot",
+        "amountOfTurn": "-",
+        "footwork": "-",
+        "lead": "continue to turn follow"
+      },
+      {
+        "step": "12",
+        "count": "&",
+        "footMovement": "r side small step",
+        "amountOfTurn": "-",
+        "footwork": "-",
+        "lead": "finish turning follow and collect them "
+      }
+    ],
+    "description": "",
+    "enum": "LeadLungeToSimpleTurnGiro"
+  },
+  {
+    "name": "1b) Follow: Lunge To Simple Turn (Giro)",
+    "steps": [
+      {
+        "step": "1-9",
+        "count": "1-2 & 3-4 & (2)-2&",
+        "footMovement": " Steps 1-9 of Lateral end lunge to side slightly back",
+        "amountOfTurn": "-",
+        "footwork": "-",
+        "lead": "-"
+      },
+
+      {
+        "step": "10",
+        "count": "3",
+        "footMovement": "forward ",
+        "amountOfTurn": "1/4 L between 9 and 10",
+        "footwork": "-",
+        "lead": "pivoting reverse turn turn toward partner"
+      },
+      {
+        "step": "11",
+        "count": "4",
+        "footMovement": "forward (pivot)",
+        "amountOfTurn": "3/4 L 0n 11",
+        "footwork": "-",
+        "lead": "-"
+      },
+      {
+        "step": "12",
+        "count": "&",
+        "footMovement": "forward",
+        "amountOfTurn": "-",
+        "footwork": "-",
+        "lead": "-"
+      }
+    ],
+    "description": "",
+    "enum": "FollowLungeToSimpleTurnGiro"
+  },
+  {
+    "name": "2) Lead: Viradinha",
     "steps": [
       {
         "step": "1",
@@ -55,7 +261,7 @@
     "enum": "LeadViradinha"
   },
   {
-    "name": "Follow: Viradinha",
+    "name": "2) Follow: Viradinha",
     "steps": [
       {
         "step": "1",
@@ -110,117 +316,7 @@
     "enum": "FollowViradinha"
   },
   {
-    "name": "Lead: Lunge to simple turn",
-    "steps": [
-      {
-        "step": "1",
-        "count": "-",
-        "footPosition": "-",
-        "amountOfTurn": "-",
-        "footwork": "-",
-        "lead": "-"
-      },
-      {
-        "step": "2",
-        "count": "-",
-        "footPosition": "-",
-        "amountOfTurn": "-",
-        "footwork": "-",
-        "lead": "-"
-      },
-      {
-        "step": "3",
-        "count": "-",
-        "footPosition": "-",
-        "amountOfTurn": "-",
-        "footwork": "-",
-        "lead": "-"
-      },
-      {
-        "step": "4",
-        "count": "-",
-        "footPosition": "-",
-        "amountOfTurn": "-",
-        "footwork": "-",
-        "lead": "-"
-      },
-      {
-        "step": "5",
-        "count": "-",
-        "footPosition": "-",
-        "amountOfTurn": "-",
-        "footwork": "-",
-        "lead": "-"
-      },
-      {
-        "step": "6",
-        "count": "-",
-        "footPosition": "-",
-        "amountOfTurn": "-",
-        "footwork": "-",
-        "lead": "-"
-      }
-    ],
-    "description": "",
-    "enum": "LeadLungeToTurn"
-  },
-  {
-    "name": "Follow: Lunge to simple turn",
-    "steps": [
-      {
-        "step": "1",
-        "count": "-",
-        "footPosition": "-",
-        "amountOfTurn": "-",
-        "footwork": "-",
-        "lead": "-"
-      },
-      {
-        "step": "2",
-        "count": "-",
-        "footPosition": "-",
-        "amountOfTurn": "-",
-        "footwork": "-",
-        "lead": "-"
-      },
-      {
-        "step": "3",
-        "count": "-",
-        "footPosition": "-",
-        "amountOfTurn": "-",
-        "footwork": "-",
-        "lead": "-"
-      },
-      {
-        "step": "4",
-        "count": "-",
-        "footPosition": "-",
-        "amountOfTurn": "-",
-        "footwork": "-",
-        "lead": "-"
-      },
-      {
-        "step": "5",
-        "count": "-",
-        "footPosition": "-",
-        "amountOfTurn": "-",
-        "footwork": "-",
-        "lead": "-"
-      },
-      {
-        "step": "6",
-        "count": "-",
-        "footPosition": "-",
-        "amountOfTurn": "-",
-        "footwork": "-",
-        "lead": "-"
-      }
-    ],
-    "description": "",
-    "enum": "FollowLungeToTurn"
-  },
-  {
-    "name": "Lead: Lo Lo (Yo Yo)",
+    "name": "3) Lead: Lo Lo (Yo Yo)",
     "steps": [
       {
         "step": "1",
@@ -275,7 +371,7 @@
     "enum": "LeadLoLo"
   },
   {
-    "name": "Follow: Lo Lo (Yo Yo)",
+    "name": "3) Follow: Lo Lo (Yo Yo)",
     "steps": [
       {
         "step": "1",
@@ -330,7 +426,7 @@
     "enum": "FollowLoLo"
   },
   {
-    "name": "Lead: Boomerang (Bonus)",
+    "name": "4) Lead: Boomerang (Bonus)",
     "steps": [
       {
         "step": "1",
@@ -385,7 +481,7 @@
     "enum": "LeadBoomerang"
   },
   {
-    "name": "Follow: Boomerang (Bonus)",
+    "name": "4) Follow: Boomerang (Bonus)",
     "steps": [
       {
         "step": "1",
@@ -438,115 +534,5 @@
     ],
     "description": "",
     "enum": "FollowBoomerang"
-  },
-  {
-    "name": "Lead: Soltinho",
-    "steps": [
-      {
-        "step": "1",
-        "count": "-",
-        "footPosition": "-",
-        "amountOfTurn": "-",
-        "footwork": "-",
-        "lead": "-"
-      },
-      {
-        "step": "2",
-        "count": "-",
-        "footPosition": "-",
-        "amountOfTurn": "-",
-        "footwork": "-",
-        "lead": "-"
-      },
-      {
-        "step": "3",
-        "count": "-",
-        "footPosition": "-",
-        "amountOfTurn": "-",
-        "footwork": "-",
-        "lead": "-"
-      },
-      {
-        "step": "4",
-        "count": "-",
-        "footPosition": "-",
-        "amountOfTurn": "-",
-        "footwork": "-",
-        "lead": "-"
-      },
-      {
-        "step": "5",
-        "count": "-",
-        "footPosition": "-",
-        "amountOfTurn": "-",
-        "footwork": "-",
-        "lead": "-"
-      },
-      {
-        "step": "6",
-        "count": "-",
-        "footPosition": "-",
-        "amountOfTurn": "-",
-        "footwork": "-",
-        "lead": "-"
-      }
-    ],
-    "description": "",
-    "enum": "LeadSoltinho"
-  },
-  {
-    "name": "Follow: Soltinho",
-    "steps": [
-      {
-        "step": "1",
-        "count": "-",
-        "footPosition": "-",
-        "amountOfTurn": "-",
-        "footwork": "-",
-        "lead": "-"
-      },
-      {
-        "step": "2",
-        "count": "-",
-        "footPosition": "-",
-        "amountOfTurn": "-",
-        "footwork": "-",
-        "lead": "-"
-      },
-      {
-        "step": "3",
-        "count": "-",
-        "footPosition": "-",
-        "amountOfTurn": "-",
-        "footwork": "-",
-        "lead": "-"
-      },
-      {
-        "step": "4",
-        "count": "-",
-        "footPosition": "-",
-        "amountOfTurn": "-",
-        "footwork": "-",
-        "lead": "-"
-      },
-      {
-        "step": "5",
-        "count": "-",
-        "footPosition": "-",
-        "amountOfTurn": "-",
-        "footwork": "-",
-        "lead": "-"
-      },
-      {
-        "step": "6",
-        "count": "-",
-        "footPosition": "-",
-        "amountOfTurn": "-",
-        "footwork": "-",
-        "lead": "-"
-      }
-    ],
-    "description": "",
-    "enum": "FollowSoltinho"
   }
 ]

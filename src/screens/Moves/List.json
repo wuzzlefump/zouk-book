@@ -316,7 +316,7 @@
     "enum": "FollowLateralCorridor"
   },
   {
-    "name": "3a) Lead: Simple Turn (Giro)",
+    "name": "3) Lead: Simple Forward and Back Turn",
     "steps": [
       {
         "step": "1-6",
@@ -376,10 +376,10 @@
       }
     ],
     "description": "",
-    "enum": "LeadSimpleTurnGiro"
+    "enum": "LeadSimpleForwardBack"
   },
   {
-    "name": "3a) Follow: Simple Turn (Giro)",
+    "name": "3) Follow: Simple Forward and Back Turn",
     "steps": [
       {
         "step": "1-9",
@@ -416,109 +416,6 @@
       }
     ],
     "description": "",
-    "enum": "FollowSimpleTurnGiro"
-  },
-  {
-    "name": "3b) Lead: Lunge To Simple Turn (Giro)",
-    "steps": [
-      {
-        "step": "1-6",
-        "count": "1,2,&3,4,&",
-        "footMovement": "Steps 1-6 of lateral",
-        "amountOfTurn": "-",
-        "footwork": "-",
-        "lead": "-"
-      },
-      {
-        "step": "7",
-        "count": "(2)",
-        "footMovement": "L foot side",
-        "amountOfTurn": "-",
-        "footwork": "-",
-        "lead": "continuing to lead lateral"
-      },
-      {
-        "step": "8",
-        "count": "2",
-        "footMovement": "R  Diagonally Forward (toward partner)",
-        "amountOfTurn": "body turns rt",
-        "footwork": "-",
-        "lead": "-"
-      },
-      {
-        "step": "9",
-        "count": "&",
-        "footMovement": "Left foot side and slightly forward (lunge)",
-        "amountOfTurn": "1/4 rt between 8 and 9",
-        "footwork": "-",
-        "lead": "left hand begins to raise for ladies turn."
-      },
-      {
-        "step": "10",
-        "count": "3",
-        "footMovement": "right foot side and slightly back",
-        "amountOfTurn": "-",
-        "footwork": "-",
-        "lead": "reverse turn follow towards you"
-      },
-      {
-        "step": "11",
-        "count": "4",
-        "footMovement": "L close to right foot",
-        "amountOfTurn": "-",
-        "footwork": "-",
-        "lead": "continue to turn follow"
-      },
-      {
-        "step": "12",
-        "count": "&",
-        "footMovement": "r side small step",
-        "amountOfTurn": "-",
-        "footwork": "-",
-        "lead": "finish turning follow and collect them "
-      }
-    ],
-    "description": "",
-    "enum": "LeadLungeToSimpleTurnGiro"
-  },
-  {
-    "name": "3b) Follow: Lunge To Simple Turn (Giro)",
-    "steps": [
-      {
-        "step": "1-9",
-        "count": "1-2 & 3-4 & (2)-2&",
-        "footMovement": " Steps 1-9 of Lateral end lunge to side slightly back",
-        "amountOfTurn": "-",
-        "footwork": "-",
-        "lead": "-"
-      },
-
-      {
-        "step": "10",
-        "count": "3",
-        "footMovement": "forward ",
-        "amountOfTurn": "1/4 L between 9 and 10",
-        "footwork": "-",
-        "lead": "pivoting reverse turn turn toward partner"
-      },
-      {
-        "step": "11",
-        "count": "4",
-        "footMovement": "forward (pivot)",
-        "amountOfTurn": "3/4 L 0n 11",
-        "footwork": "-",
-        "lead": "-"
-      },
-      {
-        "step": "12",
-        "count": "&",
-        "footMovement": "forward",
-        "amountOfTurn": "-",
-        "footwork": "-",
-        "lead": "-"
-      }
-    ],
-    "description": "",
-    "enum": "FollowLungeToSimpleTurnGiro"
+    "enum": "FollowSimpleForwardBack"
   }
 ]

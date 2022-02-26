@@ -36,7 +36,7 @@ export default function BronzeMoves() {
         }}
       >
         <option>Choose a Move</option>
-        {MovesList.map((items: tmoves, x) => {
+        {MovesList.map((items: any, x) => {
           return <option key={x}>{items.name}</option>;
         })}
       </select>

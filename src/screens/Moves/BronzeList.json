@@ -1,61 +1,68 @@
 [
   {
-    "name": "Lead: Example",
+    "name": "1) Lead: Basic w/ Elements",
     "steps": [
       {
-        "step": "1",
-        "count": "-",
-        "footPosition": "-",
+        "step": "1-6",
+        "count": "1,2,& 3,4,&",
+        "footPosition": "1-6 of forward and backward basic",
         "amountOfTurn": "-",
         "footwork": "-",
         "lead": "-"
       },
       {
-        "step": "2",
-        "count": "-",
-        "footPosition": "-",
+        "step": "7-18",
+        "count": "(2),2,& 3,4,& (3),2,& 3,4,&",
+        "footPosition": "steps 1-12 of Lateral",
         "amountOfTurn": "-",
         "footwork": "-",
         "lead": "-"
       },
       {
-        "step": "3",
-        "count": "-",
-        "footPosition": "-",
-        "amountOfTurn": "-",
-        "footwork": "-",
-        "lead": "-"
-      },
-      {
-        "step": "4",
-        "count": "-",
-        "footPosition": "-",
-        "amountOfTurn": "-",
-        "footwork": "-",
-        "lead": "-"
-      },
-      {
-        "step": "5",
-        "count": "-",
-        "footPosition": "-",
-        "amountOfTurn": "-",
-        "footwork": "-",
-        "lead": "-"
-      },
-      {
-        "step": "6",
-        "count": "-",
-        "footPosition": "-",
+        "step": "19-24",
+        "count": "(4),2,& 3,4,&",
+        "footPosition": "steps 1-6 of Simple Fwd and Back Turn",
         "amountOfTurn": "-",
         "footwork": "-",
         "lead": "-"
       }
     ],
     "description": "",
-    "enum": "LeadExample"
+    "enum": "LeadBasicWithElements"
   },
   {
-    "name": "Follow: Example",
+    "name": "1) Follow: Basic w/ elements",
+    "steps": [
+      {
+        "step": "1-6",
+        "count": "1,2,& 3,4,&",
+        "footPosition": "1-6 of forward and backward basic",
+        "amountOfTurn": "-",
+        "footwork": "-",
+        "lead": "-"
+      },
+      {
+        "step": "7-18",
+        "count": "(2),2,& 3,4,& (3),2,& 3,4,&",
+        "footPosition": "steps 1-12 of Lateral",
+        "amountOfTurn": "-",
+        "footwork": "-",
+        "lead": "-"
+      },
+      {
+        "step": "19-24",
+        "count": "(4),2,& 3,4,&",
+        "footPosition": "steps 1-6 of Simple Fwd and Back Turn",
+        "amountOfTurn": "-",
+        "footwork": "-",
+        "lead": "-"
+      }
+    ],
+    "description": "",
+    "enum": "FollowBasicWithElements"
+  },
+  {
+    "name": "2) Lead: Soltinho",
     "steps": [
       {
         "step": "1",
@@ -107,6 +114,61 @@
       }
     ],
     "description": "",
-    "enum": "FollowExample"
+    "enum": "LeadSoltinho"
+  },
+  {
+    "name": " 2) Follow: Soltinho",
+    "steps": [
+      {
+        "step": "1",
+        "count": "-",
+        "footPosition": "-",
+        "amountOfTurn": "-",
+        "footwork": "-",
+        "lead": "-"
+      },
+      {
+        "step": "2",
+        "count": "-",
+        "footPosition": "-",
+        "amountOfTurn": "-",
+        "footwork": "-",
+        "lead": "-"
+      },
+      {
+        "step": "3",
+        "count": "-",
+        "footPosition": "-",
+        "amountOfTurn": "-",
+        "footwork": "-",
+        "lead": "-"
+      },
+      {
+        "step": "4",
+        "count": "-",
+        "footPosition": "-",
+        "amountOfTurn": "-",
+        "footwork": "-",
+        "lead": "-"
+      },
+      {
+        "step": "5",
+        "count": "-",
+        "footPosition": "-",
+        "amountOfTurn": "-",
+        "footwork": "-",
+        "lead": "-"
+      },
+      {
+        "step": "6",
+        "count": "-",
+        "footPosition": "-",
+        "amountOfTurn": "-",
+        "footwork": "-",
+        "lead": "-"
+      }
+    ],
+    "description": "",
+    "enum": "FollowSoltinho"
   }
 ]
