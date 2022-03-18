@@ -5,15 +5,17 @@ import { useParams, useHistory } from "react-router";
 import MovesList from "./BronzeList.json";
 
 export default function BronzeMoves() {
-  const [currentMoveName, setCurrentMoveName] = React.useState<string | null>(
-    null
-  );
+  const history = useHistory();
   const params = useParams<{ name: string }>();
+  let currentName = params.name;
+  let currentMove = MovesList.find((item: any) => {
+    return item.enum === currentName;
+  });
 
   type tsteps = {
     step: string;
     count: string;
-    footPosition: string;
+    footMovement: string;
     amountOfTurn: string;
     footwork: string;
     lead: string;
@@ -23,16 +25,23 @@ export default function BronzeMoves() {
     description: string;
     steps: Array<tsteps>;
   };
-  React.useEffect(() => {}, [currentMoveName]);
   return (
     <div
       style={{ maxWidth: window.innerWidth }}
       className={styles.moveContainer}
     >
-      <h2 className={styles.select}>{currentMoveName ?? "Choose a Move"}</h2>
+      <h2 className={styles.select}>{currentMove?.name ?? "Choose a Move"}</h2>
       <select
         onChange={(e) => {
-          setCurrentMoveName(e.target.value);
+          console.log(e.target.value);
+
+          let NewName: any = MovesList.find((item) => {
+            return item.name.trim() == e.target.value.trim();
+          });
+
+          if (NewName.enum !== undefined) {
+            history.push(`/moves/bronze/${NewName.enum}`);
+          }
         }}
       >
         <option>Choose a Move</option>
@@ -42,16 +51,46 @@ export default function BronzeMoves() {
       </select>
       <AgGrid
         columns={[
-          { field: "step" },
-          { field: "count" },
-          { field: "footPosition" },
-          { field: "amountOfTurn" },
-          { field: "footwork" },
-          { field: "lead" },
+          {
+            field: "step",
+            width: 300,
+            cellStyle: { "white-space": "normal" },
+            autoHeight: true,
+          },
+          {
+            field: "count",
+            width: 300,
+            cellStyle: { "white-space": "normal" },
+            autoHeight: true,
+          },
+          {
+            field: "footMovement",
+            width: 300,
+            cellStyle: { "white-space": "normal" },
+            autoHeight: true,
+          },
+          {
+            field: "amountOfTurn",
+            width: 300,
+            cellStyle: { "white-space": "normal" },
+            autoHeight: true,
+          },
+          {
+            field: "footwork",
+            width: 300,
+            cellStyle: { "white-space": "normal" },
+            autoHeight: true,
+          },
+          {
+            field: "lead",
+            width: 300,
+            cellStyle: { "white-space": "normal" },
+            autoHeight: true,
+          },
         ]}
         height={600}
         width={window.innerWidth}
-        gridOptions={{ rowData: [] }}
+        gridOptions={{ rowData: currentMove?.steps ?? [] }}
       />
     </div>
   );

@@ -282,7 +282,7 @@
     "enum": "FollowViradinha"
   },
   {
-    "name": "4) Lead: Elastico from Fwd Back Basic",
+    "name": "4)Lead:ElasticofromFwdBackBasic",
     "steps": [
       {
         "step": "1",
@@ -390,10 +390,10 @@
       }
     ],
     "description": "1-3 cross body lead 4-6 open break raising frame for elastico, 7-12 circle round the follow 13-18 back into basic",
-    "enum": "LeadElasticoFwdBack"
+    "enum": "LeadEFwdBack"
   },
   {
-    "name": " 4) Follow: Elastico from Fwd back basic",
+    "name": " 4) Follow: Elastico From Fwd Back Basic",
     "steps": [
       {
         "step": "1",
@@ -461,7 +461,7 @@
       }
     ],
     "description": "1-3 cross body lead 4-6 open break elastico is cued, 7-12 elastico, 13-18 fwd back basic",
-    "enum": "FollowElasticoFwdBack"
+    "enum": "FollowEFwdBack"
   },
   {
     "name": "5) Lead: Elastico from lateral",
@@ -492,10 +492,10 @@
       }
     ],
     "description": "",
-    "enum": "LeadElasticoLateral"
+    "enum": "LeadELateral"
   },
   {
-    "name": " 5) Follow: Elastico",
+    "name": " 5) Follow: Elastico Lateral",
     "steps": [
       {
         "step": "1-12",
@@ -523,6 +523,6 @@
       }
     ],
     "description": "",
-    "enum": "FollowElasticoLateral"
+    "enum": "FollowELateral"
   }
 ]

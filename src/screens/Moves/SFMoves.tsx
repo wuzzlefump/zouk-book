@@ -55,12 +55,42 @@ export default function SFMoves() {
       </select>
       <AgGrid
         columns={[
-          { field: "step" },
-          { field: "count" },
-          { field: "footPosition" },
-          { field: "amountOfTurn" },
-          { field: "footwork" },
-          { field: "lead" },
+          {
+            field: "step",
+            width: 300,
+            cellStyle: { "white-space": "normal" },
+            autoHeight: true,
+          },
+          {
+            field: "count",
+            width: 300,
+            cellStyle: { "white-space": "normal" },
+            autoHeight: true,
+          },
+          {
+            field: "footMovement",
+            width: 300,
+            cellStyle: { "white-space": "normal" },
+            autoHeight: true,
+          },
+          {
+            field: "amountOfTurn",
+            width: 300,
+            cellStyle: { "white-space": "normal" },
+            autoHeight: true,
+          },
+          {
+            field: "footwork",
+            width: 300,
+            cellStyle: { "white-space": "normal" },
+            autoHeight: true,
+          },
+          {
+            field: "lead",
+            width: 300,
+            cellStyle: { "white-space": "normal" },
+            autoHeight: true,
+          },
         ]}
         height={600}
         width={window.innerWidth}
