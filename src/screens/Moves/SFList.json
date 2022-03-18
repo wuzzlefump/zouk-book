@@ -398,7 +398,7 @@
       },
       {
         "step": "11",
-        "count": "-",
+        "count": "4",
         "footMovement": "LF in place",
         "amountOfTurn": "-",
         "footwork": "-",
@@ -406,7 +406,7 @@
       },
       {
         "step": "12",
-        "count": "-",
+        "count": "&",
         "footMovement": "RF in place",
         "amountOfTurn": "-",
         "footwork": "-",
@@ -414,7 +414,7 @@
       },
       {
         "step": "13",
-        "count": "-",
+        "count": "(3)",
         "footMovement": "Fwd Left ",
         "amountOfTurn": "-",
         "footwork": "-",
@@ -422,7 +422,7 @@
       },
       {
         "step": "14",
-        "count": "-",
+        "count": "2",
         "footMovement": "RF in Place",
         "amountOfTurn": "-",
         "footwork": "turn follow (shoulder) wrap",
@@ -430,7 +430,7 @@
       },
       {
         "step": "15",
-        "count": "-",
+        "count": "&",
         "footMovement": "LF in Place",
         "amountOfTurn": "-",
         "footwork": "-",
@@ -446,7 +446,7 @@
       },
       {
         "step": "17",
-        "count": "-",
+        "count": "4",
         "footMovement": "LF in place",
         "amountOfTurn": "-",
         "footwork": "-",
@@ -454,7 +454,7 @@
       },
       {
         "step": "18",
-        "count": "-",
+        "count": "&",
         "footMovement": "RF in place",
         "amountOfTurn": "-",
         "footwork": "-",
@@ -462,7 +462,7 @@
       },
       {
         "step": "19",
-        "count": "-",
+        "count": "(4)",
         "footMovement": "Fwd Left ",
         "amountOfTurn": "-",
         "footwork": "-",
@@ -470,7 +470,7 @@
       },
       {
         "step": "20",
-        "count": "-",
+        "count": "2",
         "footMovement": "RF in Place",
         "amountOfTurn": "-",
         "footwork": "turn follow (shoulder)",
@@ -478,7 +478,7 @@
       },
       {
         "step": "21",
-        "count": "-",
+        "count": "&",
         "footMovement": "LF in Place",
         "amountOfTurn": "-",
         "footwork": "-",
@@ -486,7 +486,7 @@
       },
       {
         "step": "22",
-        "count": "-",
+        "count": "3",
         "footMovement": "FWD RT ",
         "amountOfTurn": "1/8 RT between 21 and 22",
         "footwork": "-",
@@ -494,7 +494,7 @@
       },
       {
         "step": "23",
-        "count": "-",
+        "count": "4",
         "footMovement": "side Left ",
         "amountOfTurn": "5/8 Rt between 23 and 24",
         "footwork": "",
@@ -502,7 +502,7 @@
       },
       {
         "step": "24",
-        "count": "-",
+        "count": "&",
         "footMovement": "in place RT ",
         "amountOfTurn": "-",
         "footwork": "-",
@@ -533,7 +533,7 @@
       },
       {
         "step": "11",
-        "count": "-",
+        "count": "4",
         "footMovement": "RF Forward",
         "amountOfTurn": "1/2 L on 11",
         "footwork": "-",
@@ -541,7 +541,7 @@
       },
       {
         "step": "12",
-        "count": "-",
+        "count": "&",
         "footMovement": "replace wt LF",
         "amountOfTurn": "-",
         "footwork": "-",
@@ -549,7 +549,7 @@
       },
       {
         "step": "13",
-        "count": "-",
+        "count": "(3)",
         "footMovement": "Fwd RT ",
         "amountOfTurn": "-",
         "footwork": "-",
@@ -557,7 +557,7 @@
       },
       {
         "step": "14",
-        "count": "-",
+        "count": "2",
         "footMovement": "FWD Left",
         "amountOfTurn": "1/2 Rt on 14",
         "footwork": "turn to (shoulder) wrap",
@@ -565,7 +565,7 @@
       },
       {
         "step": "15",
-        "count": "-",
+        "count": "&",
         "footMovement": "Replace Wt RF",
         "amountOfTurn": "-",
         "footwork": "-",
@@ -581,7 +581,7 @@
       },
       {
         "step": "17",
-        "count": "-",
+        "count": "4",
         "footMovement": "RF Fwd",
         "amountOfTurn": "1/2 Left on 17",
         "footwork": "-",
@@ -589,7 +589,7 @@
       },
       {
         "step": "18",
-        "count": "-",
+        "count": "&",
         "footMovement": "LF in place",
         "amountOfTurn": "-",
         "footwork": "-",
@@ -597,7 +597,7 @@
       },
       {
         "step": "19",
-        "count": "-",
+        "count": "(4)",
         "footMovement": "RF Fwd ",
         "amountOfTurn": "-",
         "footwork": "-",
@@ -605,7 +605,7 @@
       },
       {
         "step": "20",
-        "count": "-",
+        "count": "2",
         "footMovement": "LF forward",
         "amountOfTurn": "1/2 Rt on 20",
         "footwork": "turn follow (shoulder)",
@@ -613,7 +613,7 @@
       },
       {
         "step": "21",
-        "count": "-",
+        "count": "&",
         "footMovement": "RF in Place",
         "amountOfTurn": "-",
         "footwork": "-",
@@ -621,7 +621,7 @@
       },
       {
         "step": "22",
-        "count": "-",
+        "count": "3",
         "footMovement": "LF FWD ",
         "amountOfTurn": "-",
         "footwork": "-",
@@ -629,7 +629,7 @@
       },
       {
         "step": "23",
-        "count": "-",
+        "count": "4",
         "footMovement": "RF FWD ",
         "amountOfTurn": "1/2 Left on 23",
         "footwork": "",
@@ -637,7 +637,7 @@
       },
       {
         "step": "24",
-        "count": "-",
+        "count": "&",
         "footMovement": "in place RT ",
         "amountOfTurn": "-",
         "footwork": "-",
@@ -651,104 +651,168 @@
     "name": "5) Lead: Boomerang (Bonus)",
     "steps": [
       {
-        "step": "1",
-        "count": "-",
-        "footMovement": "-",
+        "step": "1-9",
+        "count": "12& 34& (2)2&",
+        "footMovement": "1-9 lateral end open",
+        "amountOfTurn": "-",
+        "footwork": "-",
+        "lead": "release follow as they head toward your right to end open follow on right"
+      },
+      {
+        "step": "10",
+        "count": "3",
+        "footMovement": "RF side",
+        "amountOfTurn": "Body turns left",
+        "footwork": "-",
+        "lead": "RH hand goes up to prep outside turn"
+      },
+      {
+        "step": "11",
+        "count": "4",
+        "footMovement": "Lf forward ",
+        "amountOfTurn": "1/4 Left over 11-13",
+        "footwork": "-",
+        "lead": "lead outside turn and wal in follows line of travel"
+      },
+      {
+        "step": "12",
+        "count": "&",
+        "footMovement": "RF forward",
         "amountOfTurn": "-",
         "footwork": "-",
         "lead": "-"
       },
       {
-        "step": "2",
-        "count": "-",
-        "footMovement": "-",
+        "step": "13",
+        "count": "(3)",
+        "footMovement": "LF forward",
         "amountOfTurn": "-",
         "footwork": "-",
         "lead": "-"
       },
       {
-        "step": "3",
-        "count": "-",
-        "footMovement": "-",
+        "step": "14",
+        "count": "2",
+        "footMovement": "LF in place",
         "amountOfTurn": "-",
         "footwork": "-",
-        "lead": "-"
+        "lead": "draw a hook over the next 3 steps "
       },
       {
-        "step": "4",
-        "count": "-",
-        "footMovement": "-",
+        "step": "15",
+        "count": "&",
+        "footMovement": "RF in place",
         "amountOfTurn": "-",
         "footwork": "-",
-        "lead": "-"
+        "lead": "bring arm in then back toward you"
       },
       {
-        "step": "5",
-        "count": "-",
-        "footMovement": "-",
+        "step": "16",
+        "count": "3",
+        "footMovement": "RF back",
         "amountOfTurn": "-",
         "footwork": "-",
-        "lead": "-"
+        "lead": " finish hook /lead 3 point turn in toward you after you step back"
       },
       {
-        "step": "6",
-        "count": "-",
-        "footMovement": "-",
+        "step": "17",
+        "count": "4",
+        "footMovement": "LF in place",
         "amountOfTurn": "-",
         "footwork": "-",
-        "lead": "-"
+        "lead": " finish hook /lead 3 point turn in toward you after you step back"
+      },
+      {
+        "step": "18",
+        "count": "&",
+        "footMovement": "RF in place",
+        "amountOfTurn": "-",
+        "footwork": "-",
+        "lead": " finish hook /lead 3 point turn in toward you after you step back"
       }
     ],
-    "description": "",
+    "description": "step 1-9 lateral ",
     "enum": "LeadBoomerang"
   },
   {
     "name": "5) Follow: Boomerang (Bonus)",
     "steps": [
       {
-        "step": "1",
-        "count": "-",
-        "footMovement": "-",
+        "step": "1-9 ",
+        "count": "1,2,& 3,4,& (2),2,&",
+        "footMovement": "1-9 lateral end open",
+        "amountOfTurn": "-",
+        "footwork": "-",
+        "lead": "1-9 lateral as you head toward leads right lead will let go allowing you to open up"
+      },
+      {
+        "step": "10",
+        "count": "3",
+        "footMovement": "LF Forward",
+        "amountOfTurn": "1/2 L on 10 (pivot) ",
+        "footwork": "-",
+        "lead": "-"
+      },
+      {
+        "step": "11",
+        "count": "4",
+        "footMovement": "RF back",
+        "amountOfTurn": "1/2(pivoting action) on 11",
+        "footwork": "-",
+        "lead": "-"
+      },
+      {
+        "step": "12",
+        "count": "&",
+        "footMovement": "LF Fwd",
+        "amountOfTurn": "1/2 L (pivot) on 12",
+        "footwork": "-",
+        "lead": "-"
+      },
+      {
+        "step": "13",
+        "count": "(3)",
+        "footMovement": "RF back (cusion r knee)",
         "amountOfTurn": "-",
         "footwork": "-",
         "lead": "-"
       },
       {
-        "step": "2",
-        "count": "-",
-        "footMovement": "-",
+        "step": "14",
+        "count": "2",
+        "footMovement": "Lf back",
         "amountOfTurn": "-",
         "footwork": "-",
         "lead": "-"
       },
       {
-        "step": "3",
-        "count": "-",
-        "footMovement": "-",
+        "step": "15",
+        "count": "&",
+        "footMovement": "RF replace",
         "amountOfTurn": "-",
         "footwork": "-",
         "lead": "-"
       },
       {
-        "step": "4",
-        "count": "-",
-        "footMovement": "-",
+        "step": "16",
+        "count": "3",
+        "footMovement": "Lf Fwd",
+        "amountOfTurn": "1/2 L on 16",
+        "footwork": "-",
+        "lead": "3 point turn toward partner"
+      },
+      {
+        "step": "17",
+        "count": "4",
+        "footMovement": "RF back 1/ L on 17",
         "amountOfTurn": "-",
         "footwork": "-",
         "lead": "-"
       },
       {
-        "step": "5",
-        "count": "-",
-        "footMovement": "-",
-        "amountOfTurn": "-",
-        "footwork": "-",
-        "lead": "-"
-      },
-      {
-        "step": "6",
-        "count": "-",
-        "footMovement": "-",
+        "step": "18",
+        "count": "&",
+        "footMovement": "LF forward",
         "amountOfTurn": "-",
         "footwork": "-",
         "lead": "-"
