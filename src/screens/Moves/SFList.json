@@ -381,110 +381,270 @@
     "name": "4) Lead: Lo Lo (Yo Yo)",
     "steps": [
       {
-        "step": "1",
+        "step": "1-9",
+        "count": "1,2,& 3,4,& (2),2,& ",
+        "footMovement": "steps 1-9 simple turn",
+        "amountOfTurn": "-",
+        "footwork": "-",
+        "lead": "maintain 2 hand hold"
+      },
+      {
+        "step": "10",
+        "count": "3",
+        "footMovement": "RF back",
+        "amountOfTurn": "-",
+        "footwork": "-",
+        "lead": ""
+      },
+      {
+        "step": "11",
         "count": "-",
-        "footMovement": "",
+        "footMovement": "LF in place",
+        "amountOfTurn": "-",
+        "footwork": "-",
+        "lead": "turn follow in to cuddle"
+      },
+      {
+        "step": "12",
+        "count": "-",
+        "footMovement": "RF in place",
         "amountOfTurn": "-",
         "footwork": "-",
         "lead": "-"
       },
       {
-        "step": "2",
+        "step": "13",
         "count": "-",
-        "footMovement": "-",
+        "footMovement": "Fwd Left ",
         "amountOfTurn": "-",
         "footwork": "-",
         "lead": "-"
       },
       {
-        "step": "3",
+        "step": "14",
         "count": "-",
-        "footMovement": "-",
+        "footMovement": "RF in Place",
+        "amountOfTurn": "-",
+        "footwork": "turn follow (shoulder) wrap",
+        "lead": "-"
+      },
+      {
+        "step": "15",
+        "count": "-",
+        "footMovement": "LF in Place",
         "amountOfTurn": "-",
         "footwork": "-",
         "lead": "-"
       },
       {
-        "step": "4",
-        "count": "-",
-        "footMovement": "-",
+        "step": "16",
+        "count": "3",
+        "footMovement": "RF back",
         "amountOfTurn": "-",
         "footwork": "-",
         "lead": "-"
       },
       {
-        "step": "5",
+        "step": "17",
         "count": "-",
-        "footMovement": "-",
+        "footMovement": "LF in place",
+        "amountOfTurn": "-",
+        "footwork": "-",
+        "lead": "turn follow (waist) wrap"
+      },
+      {
+        "step": "18",
+        "count": "-",
+        "footMovement": "RF in place",
         "amountOfTurn": "-",
         "footwork": "-",
         "lead": "-"
       },
       {
-        "step": "6",
+        "step": "19",
         "count": "-",
-        "footMovement": "-",
+        "footMovement": "Fwd Left ",
         "amountOfTurn": "-",
         "footwork": "-",
         "lead": "-"
+      },
+      {
+        "step": "20",
+        "count": "-",
+        "footMovement": "RF in Place",
+        "amountOfTurn": "-",
+        "footwork": "turn follow (shoulder)",
+        "lead": "-"
+      },
+      {
+        "step": "21",
+        "count": "-",
+        "footMovement": "LF in Place",
+        "amountOfTurn": "-",
+        "footwork": "-",
+        "lead": "-"
+      },
+      {
+        "step": "22",
+        "count": "-",
+        "footMovement": "FWD RT ",
+        "amountOfTurn": "1/8 RT between 21 and 22",
+        "footwork": "-",
+        "lead": "let go w/ right hand"
+      },
+      {
+        "step": "23",
+        "count": "-",
+        "footMovement": "side Left ",
+        "amountOfTurn": "5/8 Rt between 23 and 24",
+        "footwork": "",
+        "lead": "let go w/ right hand unravel with shoulder arm"
+      },
+      {
+        "step": "24",
+        "count": "-",
+        "footMovement": "in place RT ",
+        "amountOfTurn": "-",
+        "footwork": "-",
+        "lead": "place right hand on back to go into closed"
       }
     ],
-    "description": "",
+    "description": "1-9 simple turn turn into cudle at the waist 10-12, turn into cuddle at shoulder 13-15 , repeat unravel the follow as yyou let go with right arm and get back in front of her. ",
     "enum": "LeadLoLo"
   },
   {
     "name": "4) Follow: Lo Lo (Yo Yo)",
     "steps": [
       {
-        "step": "1",
+        "step": "1-9",
+        "count": "1,2,& 3,4,& (2),2,& ",
+        "footMovement": "steps 1-9 simple turn",
+        "amountOfTurn": "-",
+        "footwork": "-",
+        "lead": "maintain 2 hand hold"
+      },
+      {
+        "step": "10",
+        "count": "3",
+        "footMovement": "LF forward",
+        "amountOfTurn": "-",
+        "footwork": "-",
+        "lead": ""
+      },
+      {
+        "step": "11",
         "count": "-",
-        "footMovement": "-",
+        "footMovement": "RF Forward",
+        "amountOfTurn": "1/2 L on 11",
+        "footwork": "-",
+        "lead": "turn in to cuddle"
+      },
+      {
+        "step": "12",
+        "count": "-",
+        "footMovement": "replace wt LF",
         "amountOfTurn": "-",
         "footwork": "-",
         "lead": "-"
       },
       {
-        "step": "2",
+        "step": "13",
         "count": "-",
-        "footMovement": "-",
+        "footMovement": "Fwd RT ",
         "amountOfTurn": "-",
         "footwork": "-",
         "lead": "-"
       },
       {
-        "step": "3",
+        "step": "14",
         "count": "-",
-        "footMovement": "-",
+        "footMovement": "FWD Left",
+        "amountOfTurn": "1/2 Rt on 14",
+        "footwork": "turn to (shoulder) wrap",
+        "lead": "-"
+      },
+      {
+        "step": "15",
+        "count": "-",
+        "footMovement": "Replace Wt RF",
         "amountOfTurn": "-",
         "footwork": "-",
         "lead": "-"
       },
       {
-        "step": "4",
-        "count": "-",
-        "footMovement": "-",
+        "step": "16",
+        "count": "3",
+        "footMovement": "Left Fwd",
         "amountOfTurn": "-",
         "footwork": "-",
         "lead": "-"
       },
       {
-        "step": "5",
+        "step": "17",
         "count": "-",
-        "footMovement": "-",
+        "footMovement": "RF Fwd",
+        "amountOfTurn": "1/2 Left on 17",
+        "footwork": "-",
+        "lead": "turn follow (waist) wrap"
+      },
+      {
+        "step": "18",
+        "count": "-",
+        "footMovement": "LF in place",
         "amountOfTurn": "-",
         "footwork": "-",
         "lead": "-"
       },
       {
-        "step": "6",
+        "step": "19",
         "count": "-",
-        "footMovement": "-",
+        "footMovement": "RF Fwd ",
         "amountOfTurn": "-",
         "footwork": "-",
         "lead": "-"
+      },
+      {
+        "step": "20",
+        "count": "-",
+        "footMovement": "LF forward",
+        "amountOfTurn": "1/2 Rt on 20",
+        "footwork": "turn follow (shoulder)",
+        "lead": "-"
+      },
+      {
+        "step": "21",
+        "count": "-",
+        "footMovement": "RF in Place",
+        "amountOfTurn": "-",
+        "footwork": "-",
+        "lead": "-"
+      },
+      {
+        "step": "22",
+        "count": "-",
+        "footMovement": "LF FWD ",
+        "amountOfTurn": "-",
+        "footwork": "-",
+        "lead": "let go w/ right hand"
+      },
+      {
+        "step": "23",
+        "count": "-",
+        "footMovement": "RF FWD ",
+        "amountOfTurn": "1/2 Left on 23",
+        "footwork": "",
+        "lead": ""
+      },
+      {
+        "step": "24",
+        "count": "-",
+        "footMovement": "in place RT ",
+        "amountOfTurn": "-",
+        "footwork": "-",
+        "lead": "place right hand on back to go into closed"
       }
     ],
-    "description": "",
+    "description": "1-9 simple turn turn into cudle at the waist 10-12, turn into cuddle at shoulder 13-15 , repeat to unravel",
     "enum": "FollowLoLo"
   },
   {
